@@ -244,7 +244,7 @@ def main():
     ]
     parts += formula_one_ascii()
     parts += [
-        text(52,315,"// RB-RACING  |  ASCII SPEC",12,YELLOW,600),
+       
         f'<path d="M40 326 H347" stroke="{BORDER}"/>',
         text(46,353,"< developer / designer >",17,WHITE,600),
         text(46,384,"Based in Hyderabad, India",15,MUTED),

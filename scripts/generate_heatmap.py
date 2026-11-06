@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 """
-Generate an animated stock-market-style heatmap SVG for a GitHub profile.
+Finviz-style animated stock market heatmap for a GitHub profile.
 
-Visual design: Finviz/Bloomberg treemap — dark terminal background, rectangular
-tiles sized by repository star+fork weight, colored green/red by recent activity.
-Full CSS @keyframes animation so the SVG plays natively inside GitHub README.
+Design goals
+------------
+* Bright saturated green/red tiles — exactly like the Finviz S&P 500 heatmap
+* Proper 2-D squarified treemap (no horizontal stripes)
+* Tile size driven by repo size (log scale) so weights differ enough to
+  produce varied tile shapes even when star counts are uniform
+* Bold ticker + percentage text centred in each tile
+* Dark charcoal background  (#0d1117 — GitHub's own dark bg)
+* CSS @keyframes pulse per tile + SVG <animate> glow — all GitHub-safe,
+  no JavaScript required
+* Compact Bloomberg-style stat sidebar on the right
+* Scrolling ticker tape at the bottom
 
-Python standard library only. Safe to run locally or via GitHub Actions.
+Python standard library only. No pip installs.
 """
 
 import html
@@ -19,612 +28,563 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 # ── Config ────────────────────────────────────────────────────────────────────
-USER = "KMCR41207"
+USER   = "KMCR41207"
 OUTPUT = Path(__file__).resolve().parent.parent / "assets" / "market-heatmap.svg"
 
-# Canvas
-W, H = 1120, 580
+W, H = 1060, 520          # total canvas
+SIDEBAR_W = 210           # right panel width
+PAD       = 6             # gap between canvas edge and heatmap
+TICK_H    = 22            # ticker tape height at bottom
+HEADER_H  = 38            # top header bar height
 
-# Palette — financial terminal aesthetic
-BG          = "#070A0F"
-GRID_LINE   = "#131B2A"
-PANEL_BG    = "#0C1220"
-BORDER_DIM  = "#1A2740"
-BORDER_ACT  = "#2A4070"
+# Heatmap area
+HM_X = PAD
+HM_Y = HEADER_H + PAD
+HM_W = W - SIDEBAR_W - PAD * 2 - 4
+HM_H = H - HEADER_H - TICK_H - PAD * 2
 
-# Tile colours — five intensity steps each direction
-GREENS = ["#0D2B1A", "#0F3D22", "#145C2F", "#1A7A3C", "#22A652", "#2ECC71"]
-REDS   = ["#2B0D0D", "#3D0F0F", "#5C1414", "#7A1A1A", "#A62222", "#CC2E2E"]
-NEUTRAL = "#111827"
+# ── Colour palette ─────────────────────────────────────────────────────────────
+BG         = "#0d1117"      # GitHub dark background
+HEADER_BG  = "#010409"
+SIDEBAR_BG = "#010409"
+BORDER     = "#21262d"
+GRID       = "#161b22"
 
-# Typography
-FONT = "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-WHITE     = "#F0F4FF"
-MUTED     = "#607090"
-ACCENT    = "#4A90D9"
-BRIGHT    = "#78B8FF"
-GREEN_TXT = "#2ECC71"
-RED_TXT   = "#CC2E2E"
-YELLOW    = "#F1C26B"
+# Bright Finviz-style greens (low → high intensity)
+GREENS = [
+    "#145214",   # very dark – barely active
+    "#1a6b1a",
+    "#1e8a1e",
+    "#22a622",   # mid
+    "#28cc28",
+    "#2eeb2e",   # bright lime – very active
+]
+# Bright Finviz-style reds
+REDS = [
+    "#521414",
+    "#6b1a1a",
+    "#8a1e1e",
+    "#a62222",   # mid
+    "#cc2828",
+    "#eb2e2e",   # bright red – stale/dead
+]
+NEUTRAL = "#1c2128"
+
+FONT  = "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+WHITE = "#e6edf3"
+DIM   = "#8b949e"
+BLUE  = "#58a6ff"
+YELL  = "#e3b341"
+GRTXT = "#3fb950"
+RDTXT = "#f85149"
 
 
-# ── GitHub API helpers ────────────────────────────────────────────────────────
-def _headers():
-    h = {"Accept": "application/vnd.github+json", "User-Agent": "KMCR-heatmap-action"}
+# ── GitHub API ────────────────────────────────────────────────────────────────
+def _hdr():
+    h = {"Accept": "application/vnd.github+json", "User-Agent": "KMCR-heatmap"}
     tok = os.getenv("GITHUB_TOKEN")
     if tok:
         h["Authorization"] = f"Bearer {tok}"
     return h
 
 
-def api(url):
+def _get(url):
     try:
-        with urlopen(Request(url, headers=_headers()), timeout=15) as r:
+        with urlopen(Request(url, headers=_hdr()), timeout=15) as r:
             return json.load(r)
     except (HTTPError, URLError, TimeoutError, ValueError) as e:
-        print(f"  API warn: {url}  →  {e}")
+        print(f"  api warn {url}: {e}")
         return None
 
 
-def fetch_profile():
-    data = api(f"https://api.github.com/users/{USER}")
-    if not isinstance(data, dict):
-        return {"repos": "—", "followers": "—", "name": USER}
-    return {
-        "repos":     data.get("public_repos", "—"),
-        "followers": data.get("followers", "—"),
-        "name":      data.get("name") or USER,
-        "bio":       data.get("bio") or "",
-    }
-
-
-def fetch_repos():
-    """Return list of repo dicts, all public repos up to 500."""
-    results, page = [], 1
+def fetch_all():
+    info  = _get(f"https://api.github.com/users/{USER}") or {}
+    repos, page = [], 1
     while page <= 5:
-        batch = api(
+        batch = _get(
             f"https://api.github.com/users/{USER}/repos"
-            f"?per_page=100&page={page}&sort=updated"
+            f"?per_page=100&page={page}&sort=pushed"
         )
         if not isinstance(batch, list):
             break
-        results.extend(batch)
+        repos.extend(batch)
         if len(batch) < 100:
             break
         page += 1
-    return results
+    return info, repos
 
 
-def fetch_contributions_approx(repos):
-    """Approximate total commits from event stream (no auth = 300 events)."""
-    events = api(f"https://api.github.com/users/{USER}/events/public?per_page=100")
-    pushes = 0
-    if isinstance(events, list):
-        for ev in events:
-            if ev.get("type") == "PushEvent":
-                pushes += ev.get("payload", {}).get("size", 0)
-    return pushes
+# ── Tile data ─────────────────────────────────────────────────────────────────
+def make_tiles(repos):
+    tiles = []
+    for r in repos:
+        if r.get("fork"):
+            continue
+        name   = r.get("name", "")
+        lang   = r.get("language") or ""
+        stars  = r.get("stargazers_count", 0)
+        forks  = r.get("forks_count", 0)
+        size   = r.get("size", 0)          # KB
 
+        # Weight: repo size dominates so tiles differ in size;
+        # stars/forks add a bonus so popular repos are bigger
+        weight = math.log1p(size) * 3 + stars * 8 + forks * 5 + 1.0
 
-# ── Treemap (squarified) ──────────────────────────────────────────────────────
-def _worst(row, w, total_area):
-    if not row or total_area == 0:
-        return float("inf")
-    s = sum(row)
-    side = s / w
-    if side == 0:
-        return float("inf")
-    return max(max(r / side for r in row), max(side / r for r in row)) if min(row) > 0 else float("inf")
+        # Activity score → colour selection
+        # Use stars+forks as primary signal; size/language as tiebreaker
+        raw   = stars * 4 + forks * 2 + math.log1p(size) * 0.3
+        score = math.tanh(raw / 12.0)      # −1 … +1
 
+        # Deterministic jitter so even-weight repos spread across shades
+        rng    = random.Random(hash(name) & 0xFFFFFF)
+        jitter = rng.uniform(-0.25, 0.25)
+        score  = max(-1.0, min(1.0, score + jitter))
 
-def squarify(items, x, y, w, h):
-    """items: list of (value, meta).  Returns list of (x,y,w,h,meta)."""
-    if not items:
-        return []
-    total = sum(v for v, _ in items)
-    if total == 0 or w <= 0 or h <= 0:
-        return []
+        # Colour intensity index 0-5
+        idx = min(5, int(abs(score) * 6))
+        color = GREENS[idx] if score >= 0 else REDS[idx]
 
-    def layout_row(row_items, x, y, w, h):
-        row_sum = sum(v for v, _ in row_items)
-        rects = []
-        if w >= h:
-            col_w = (row_sum / total) * w
-            cy = y
-            for v, meta in row_items:
-                rh = (v / row_sum) * h if row_sum else 0
-                rects.append((x, cy, col_w, rh, meta))
-                cy += rh
+        # Display label: repo name uppercased, trimmed
+        label = name.upper()
+
+        # Metric display (stars if any, else size in KB)
+        if stars > 0:
+            metric = f"+{stars}★"
+        elif size > 1024:
+            metric = f"{size//1024}MB"
+        elif size > 0:
+            metric = f"{size}KB"
         else:
-            row_h = (row_sum / total) * h
-            cx = x
-            for v, meta in row_items:
-                rw = (v / row_sum) * w if row_sum else 0
-                rects.append((cx, y, rw, row_h, meta))
-                cx += rw
-        return rects
+            metric = "—"
 
-    result = []
-    remaining = list(items)
-    rx, ry, rw, rh = x, y, w, h
-    row = []
+        tiles.append(dict(
+            name=name, label=label, lang=lang,
+            stars=stars, forks=forks, size=size,
+            weight=weight, score=score, color=color, metric=metric,
+        ))
+
+    tiles.sort(key=lambda t: -t["weight"])
+    return tiles[:35]
+
+
+# ── Squarified treemap ────────────────────────────────────────────────────────
+def _aspect(a, b):
+    """Worst aspect ratio of a rectangle with sides a and b."""
+    if a == 0 or b == 0:
+        return float("inf")
+    return max(a / b, b / a)
+
+
+def squarify(values, x, y, w, h):
+    """
+    Pure squarified treemap.
+    values : list of (weight, meta)
+    Returns : list of (rx, ry, rw, rh, meta)
+    """
+    if not values or w <= 0 or h <= 0:
+        return []
+
+    total = sum(v for v, _ in values)
+    if total == 0:
+        return []
+
+    result    = []
+    remaining = list(values)
+    cx, cy, cw, ch = x, y, w, h
 
     while remaining:
-        item = remaining[0]
-        short = rw if rw < rh else rh
-        remaining_sum = sum(v for v, _ in remaining)
-        row_vals  = [v for v, _ in row]
-        test_vals = row_vals + [item[0]]
-        if not row or _worst(test_vals, short, remaining_sum) <= _worst(row_vals, short, remaining_sum):
-            row.append(item)
-            remaining.pop(0)
-        else:
-            rects = layout_row(row, rx, ry, rw, rh)
-            result.extend(rects)
-            row_sum = sum(v for v, _ in row)
-            if rw >= rh:
-                used = (row_sum / total) * rw
-                rx += used
-                rw -= used
-            else:
-                used = (row_sum / total) * rh
-                ry += used
-                rh -= used
-            row = []
+        # Decide layout direction: use the shorter side
+        short = cw if cw <= ch else ch
+        row   = []
+        row_sum = 0.0
 
-    if row:
-        result.extend(layout_row(row, rx, ry, rw, rh))
+        for item in remaining:
+            v    = item[0]
+            test = row + [item]
+            ts   = row_sum + v
+            # Compute worst aspect for test row
+            if short == 0:
+                break
+            # Each row fills `ts/total` of the short side as a strip
+            strip = (ts / total) * (cw * ch) / short if short > 0 else 0
+            worst_new = max(
+                _aspect((vi / ts) * short, strip / ((vi / ts) * short) if (vi / ts) * short > 0 else 1e9)
+                for vi, _ in test
+            ) if ts > 0 else float("inf")
+            worst_old = max(
+                _aspect((vi / row_sum) * short,
+                        (row_sum / total) * (cw * ch) / short /
+                        ((vi / row_sum) * short) if (vi / row_sum) * short > 0 else 1e9)
+                for vi, _ in row
+            ) if row else float("inf")
+
+            if not row or worst_new <= worst_old:
+                row.append(item)
+                row_sum += v
+            else:
+                break
+
+        if not row:
+            row      = [remaining[0]]
+            row_sum  = remaining[0][0]
+
+        remaining = remaining[len(row):]
+
+        # Lay out this row as a strip
+        strip_frac = row_sum / total
+        if cw <= ch:
+            # Horizontal strip across full width
+            strip_h = strip_frac * ch
+            px = cx
+            for v, meta in row:
+                pw = (v / row_sum) * cw if row_sum else 0
+                result.append((px, cy, pw, strip_h, meta))
+                px += pw
+            cy    += strip_h
+            ch    -= strip_h
+        else:
+            # Vertical strip across full height
+            strip_w = strip_frac * cw
+            py = cy
+            for v, meta in row:
+                ph = (v / row_sum) * ch if row_sum else 0
+                result.append((cx, py, strip_w, ph, meta))
+                py += ph
+            cx    += strip_w
+            cw    -= strip_w
+
+        # Rescale remaining weights relative to leftover area
+        leftover = cw * ch
+        used     = w * h * strip_frac
+        remaining_area = w * h - (w * h - leftover - 0)  # running total
+        # Renormalise weights for next iteration
+        total -= row_sum
+
     return result
 
 
-# ── Colour helpers ────────────────────────────────────────────────────────────
-def activity_color(score):
-    """score in [-1, 1].  Negative → red, positive → green."""
-    if score > 0.7:
-        return GREENS[5]
-    if score > 0.4:
-        return GREENS[4]
-    if score > 0.15:
-        return GREENS[3]
-    if score > 0:
-        return GREENS[2]
-    if score == 0:
-        return NEUTRAL
-    if score > -0.15:
-        return REDS[2]
-    if score > -0.4:
-        return REDS[3]
-    if score > -0.7:
-        return REDS[4]
-    return REDS[5]
-
-
-def brightness(hex_color):
-    c = hex_color.lstrip("#")
-    r, g, b = int(c[0:2], 16), int(c[2:4], 16), int(c[4:6], 16)
-    return (r * 299 + g * 587 + b * 114) / 1000
-
-
-# ── SVG primitives ────────────────────────────────────────────────────────────
+# ── SVG helpers ───────────────────────────────────────────────────────────────
 def esc(v):
     return html.escape(str(v), quote=True)
 
 
-def t(x, y, content, size=13, color=WHITE, weight="400", anchor="start", extra=""):
+def txt(x, y, content, size=12, color=WHITE, weight="400",
+        anchor="middle", opacity=1.0, extra=""):
+    op = f' opacity="{opacity}"' if opacity != 1.0 else ""
     return (
-        f'<text x="{x}" y="{y}" font-family="{FONT}" font-size="{size}" '
-        f'font-weight="{weight}" fill="{color}" text-anchor="{anchor}" '
-        f'dominant-baseline="auto" xml:space="preserve" {extra}>{esc(content)}</text>'
+        f'<text x="{x:.1f}" y="{y:.1f}" '
+        f'font-family="{FONT}" font-size="{size}" font-weight="{weight}" '
+        f'fill="{color}" text-anchor="{anchor}" dominant-baseline="central" '
+        f'xml:space="preserve"{op} {extra}>{esc(content)}</text>'
     )
 
 
-def rect(x, y, w, h, fill, rx=3, extra=""):
-    return f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{rx}" fill="{fill}" {extra}/>'
-
-
-# ── Build repo tiles ──────────────────────────────────────────────────────────
-def build_tile_data(repos):
-    """Turn raw repo list into weighted, coloured tile descriptors."""
-    tiles = []
-    for r in repos:
-        if r.get("fork"):
-            continue                          # skip forks
-        name  = r.get("name", "")
-        lang  = r.get("language") or "Code"
-        stars = r.get("stargazers_count", 0)
-        forks = r.get("forks_count", 0)
-        size  = r.get("size", 0)
-        # Weight: stars count double, forks count 1.5x, size gives baseline
-        weight = max(stars * 2 + forks * 1.5 + math.log1p(size) * 0.5, 0.5)
-
-        # Activity score: normalise stars+forks into [-1,1]
-        raw = stars * 3 + forks * 1.5
-        score = math.tanh(raw / 15.0)        # smooth sigmoid-like mapping
-
-        # Deterministic pseudo-random jitter so idle repos get light green/red
-        rng = random.Random(name)
-        jitter = rng.uniform(-0.12, 0.12)
-        score = max(-1.0, min(1.0, score + jitter))
-
-        pct_display = f"+{stars}★" if stars else f"{forks} forks" if forks else "—"
-
-        tiles.append({
-            "name":   name,
-            "lang":   lang,
-            "weight": weight,
-            "score":  score,
-            "color":  activity_color(score),
-            "pct":    pct_display,
-            "stars":  stars,
-            "forks":  forks,
-        })
-
-    # Sort descending by weight for treemap stability
-    tiles.sort(key=lambda x: -x["weight"])
-    return tiles[:40]   # cap at 40 tiles for readability
-
-
-# ── Animation CSS ─────────────────────────────────────────────────────────────
-def animation_css(tile_count):
-    """Generate per-tile CSS keyframes for subtle pulse / glow animation."""
-    css_parts = [
-        "<style>",
-        "  .tile { cursor: pointer; transition: opacity 0.4s; }",
-        "  .tile:hover rect { stroke-width: 2; opacity: 1 !important; }",
-        "  .tile:hover .tile-glow { opacity: 1 !important; }",
-    ]
-
-    # Each tile gets a unique animation with a staggered delay
-    for i in range(tile_count):
-        rng = random.Random(i * 31337)
-        dur   = round(rng.uniform(3.5, 7.0), 2)
-        delay = round(rng.uniform(0.0, 5.0), 2)
-        # opacity oscillates subtly between 0.82 and 1.0
-        css_parts.append(
-            f"  @keyframes pulse{i} {{"
-            f" 0%,100%{{opacity:0.86}} 50%{{opacity:1}} }}"
-        )
-        css_parts.append(
-            f"  #tile{i} > rect.tile-fill"
-            f" {{ animation: pulse{i} {dur}s {delay}s ease-in-out infinite; }}"
-        )
-
-    # Ticker tape scroll
-    css_parts.append(
-        "  @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }"
-    )
-    css_parts.append("  .ticker-inner { animation: ticker 28s linear infinite; }")
-
-    # Header blink cursor
-    css_parts.append(
-        "  @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }"
-    )
-    css_parts.append("  .cursor { animation: blink 1.1s step-end infinite; }")
-
-    # Glow pulse
-    css_parts.append(
-        "  @keyframes glow { 0%,100%{opacity:0} 60%{opacity:0.35} }"
-    )
-
-    css_parts.append("</style>")
-    return "\n".join(css_parts)
-
-
-# ── Sidebar stats ─────────────────────────────────────────────────────────────
-SIDEBAR_X = W - 224
-SIDEBAR_W = 216
-
-
-def sidebar(profile, repos, total_stars, languages):
-    lines = []
-    sx = SIDEBAR_X + 12
-
-    # Panel background
-    lines.append(rect(SIDEBAR_X, 48, SIDEBAR_W, H - 52, PANEL_BG, rx=0))
-    lines.append(
-        f'<rect x="{SIDEBAR_X}" y="48" width="1" height="{H-52}" fill="{BORDER_ACT}"/>'
-    )
-
-    # Title
-    lines.append(t(sx, 76, "MARKET SUMMARY", 10, ACCENT, "600"))
-    lines.append(f'<rect x="{sx}" y="82" width="192" height="1" fill="{BORDER_DIM}"/>')
-
-    # Stats grid
-    stats = [
-        ("REPOS",      str(profile.get("repos", "—")),  BRIGHT),
-        ("FOLLOWERS",  str(profile.get("followers", "—")), BRIGHT),
-        ("TOTAL ★",    str(total_stars) if isinstance(total_stars, int) else "—", YELLOW),
-    ]
-    sy = 100
-    for label, val, col in stats:
-        lines.append(t(sx, sy, label, 9, MUTED, "600"))
-        lines.append(t(sx + 100, sy, val, 14, col, "700", anchor="end"))
-        sy += 28
-
-    lines.append(f'<rect x="{sx}" y="{sy}" width="192" height="1" fill="{BORDER_DIM}"/>')
-    sy += 14
-
-    # Language distribution
-    lines.append(t(sx, sy, "LANGUAGE DIST", 10, ACCENT, "600"))
-    sy += 16
-    total_lang = sum(languages.values()) or 1
-    bar_w = 192
-    bx = sx
-    LANG_COLORS = {
-        "TypeScript": "#3178C6", "JavaScript": "#F1E05A", "Python": "#3572A5",
-        "HTML": "#E34C26",       "CSS": "#563D7C",        "Shell": "#89E051",
-        "Java": "#B07219",       "C++": "#F34B7D",        "C": "#555555",
-        "Go": "#00ADD8",         "Rust": "#DEA584",       "Ruby": "#701516",
-        "PHP": "#4F5D95",        "Swift": "#FA7343",      "Kotlin": "#A97BFF",
-    }
-    bar_items = sorted(languages.items(), key=lambda x: -x[1])[:6]
-    if bar_items:
-        # Stacked bar
-        for lang, cnt in bar_items:
-            seg_w = (cnt / total_lang) * bar_w
-            col   = LANG_COLORS.get(lang, "#4A90D9")
-            if seg_w > 1:
-                lines.append(
-                    f'<rect x="{bx:.1f}" y="{sy}" width="{seg_w:.1f}" height="8" '
-                    f'rx="0" fill="{col}"/>'
-                )
-                bx += seg_w
-        sy += 14
-        # Legend (max 6)
-        for lang, cnt in bar_items[:6]:
-            col = LANG_COLORS.get(lang, "#4A90D9")
-            pct = round(cnt / total_lang * 100)
-            lines.append(
-                f'<rect x="{sx}" y="{sy-8}" width="8" height="8" rx="1" fill="{col}"/>'
-            )
-            lines.append(t(sx + 12, sy, f"{lang}", 10, WHITE))
-            lines.append(t(sx + 192, sy, f"{pct}%", 10, MUTED, anchor="end"))
-            sy += 14
-    sy += 6
-
-    lines.append(f'<rect x="{sx}" y="{sy}" width="192" height="1" fill="{BORDER_DIM}"/>')
-    sy += 14
-
-    # Top repos mini list
-    lines.append(t(sx, sy, "TOP REPOS", 10, ACCENT, "600"))
-    sy += 14
-    top = sorted(repos, key=lambda r: r.get("stargazers_count", 0) + r.get("forks_count", 0), reverse=True)
-    for repo in top[:5]:
-        name   = repo.get("name", "")[:18]
-        stars  = repo.get("stargazers_count", 0)
-        forks  = repo.get("forks_count", 0)
-        col    = GREEN_TXT if stars + forks > 0 else MUTED
-        lines.append(t(sx, sy, f"▸ {name}", 10, WHITE))
-        lines.append(t(sx + 192, sy, f"★{stars}", 10, col, anchor="end"))
-        sy += 14
-
-    sy += 6
-    lines.append(f'<rect x="{sx}" y="{sy}" width="192" height="1" fill="{BORDER_DIM}"/>')
-    sy += 12
-    lines.append(t(sx, sy, f"AUTO-REFRESH  ·  {USER}", 9, MUTED))
-
-    return "\n".join(lines)
-
-
-# ── Ticker tape ───────────────────────────────────────────────────────────────
-def ticker_tape(tiles):
-    items = []
-    for tile in tiles:
-        col   = GREEN_TXT if tile["score"] >= 0 else RED_TXT
-        sign  = "▲" if tile["score"] >= 0 else "▼"
-        items.append((f"{tile['name'].upper()[:10]}", f"{sign} {tile['pct']}", col))
-    # Duplicate for seamless loop
-    items = items * 2
-
-    tape_parts = []
-    cx = 0
-    for name, pct, col in items:
-        tape_parts.append(
-            f'<text x="{cx}" y="11" font-family="{FONT}" font-size="11" '
-            f'font-weight="600" fill="{WHITE}" xml:space="preserve">{esc(name)}</text>'
-        )
-        tape_parts.append(
-            f'<text x="{cx+90}" y="11" font-family="{FONT}" font-size="11" '
-            f'font-weight="400" fill="{col}" xml:space="preserve">{esc(pct)}</text>'
-        )
-        tape_parts.append(
-            f'<text x="{cx+154}" y="11" font-family="{FONT}" font-size="11" '
-            f'fill="{BORDER_ACT}" xml:space="preserve">│</text>'
-        )
-        cx += 168
-
-    return (
-        f'<rect x="0" y="{H-22}" width="{W}" height="22" fill="{PANEL_BG}"/>'
-        f'<rect x="0" y="{H-22}" width="{W}" height="1" fill="{BORDER_ACT}"/>'
-        f'<clipPath id="ticker-clip"><rect x="0" y="{H-22}" width="{W-4}" height="22"/></clipPath>'
-        f'<g clip-path="url(#ticker-clip)">'
-        f'<g class="ticker-inner" transform="translate(0,{H-22})">'
-        + "".join(tape_parts)
-        + "</g></g>"
-    )
-
-
-# ── Main tile rendering ───────────────────────────────────────────────────────
-HEATMAP_X, HEATMAP_Y = 8, 48
-HEATMAP_W = SIDEBAR_X - HEATMAP_X - 4
-HEATMAP_H = H - HEATMAP_Y - 26   # leave room for ticker
-
-
+# ── Tile rendering ────────────────────────────────────────────────────────────
 def render_tiles(tiles):
-    if not tiles:
-        return '<text x="200" y="200" fill="#607090" font-size="16">No repository data available.</text>'
+    items  = [(t["weight"], t) for t in tiles]
+    rects  = squarify(items, HM_X, HM_Y, HM_W, HM_H)
+    GAP    = 3        # pixel gap between tiles
+    parts  = []
 
-    items = [(t["weight"], t) for t in tiles]
-    rects = squarify(items, HEATMAP_X, HEATMAP_Y, HEATMAP_W, HEATMAP_H)
-
-    parts = []
     for i, (rx, ry, rw, rh, meta) in enumerate(rects):
-        GAP = 2
-        rx, ry, rw, rh = rx + GAP, ry + GAP, rw - GAP * 2, rh - GAP * 2
-        if rw < 2 or rh < 2:
+        # Apply gap
+        rx2, ry2, rw2, rh2 = rx + GAP, ry + GAP, rw - GAP * 2, rh - GAP * 2
+        if rw2 < 4 or rh2 < 4:
             continue
 
-        fill   = meta["color"]
-        bright = brightness(fill) > 80
-        txt_c  = "#071008" if bright else WHITE
-        pct_c  = "#071008" if bright else (GREEN_TXT if meta["score"] >= 0 else RED_TXT)
+        fill  = meta["color"]
+        score = meta["score"]
 
-        # Glow filter id per tile
-        glow_id = f"glow{i}"
+        # Staggered pulse animation
+        rng   = random.Random(i * 13337)
+        dur   = round(rng.uniform(2.8, 6.5), 1)
+        dly   = round(rng.uniform(0.0, 4.0), 1)
+        lo    = round(rng.uniform(0.75, 0.88), 2)
 
-        parts.append(f'<g id="tile{i}" class="tile">')
+        parts.append(f'<g id="t{i}">')
 
-        # Subtle inner glow via feGaussianBlur
+        # Tile body
         parts.append(
-            f'<defs><filter id="{glow_id}" x="-20%" y="-20%" width="140%" height="140%">'
-            f'<feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>'
-            f'<feComposite in="SourceGraphic" in2="blur" operator="over"/>'
-            f'</filter></defs>'
-        )
-
-        # Base tile
-        parts.append(
-            f'<rect x="{rx:.1f}" y="{ry:.1f}" width="{rw:.1f}" height="{rh:.1f}" '
-            f'rx="3" fill="{fill}" stroke="{GRID_LINE}" stroke-width="1" class="tile-fill"/>'
-        )
-
-        # Glow overlay (animated separately)
-        parts.append(
-            f'<rect x="{rx:.1f}" y="{ry:.1f}" width="{rw:.1f}" height="{rh:.1f}" '
-            f'rx="3" fill="{fill}" filter="url(#{glow_id})" class="tile-glow" opacity="0">'
-            f'<animate attributeName="opacity" values="0;0.3;0" '
-            f'dur="{round(random.Random(i).uniform(4,9), 1)}s" '
-            f'begin="{round(random.Random(i*7).uniform(0,5), 1)}s" '
+            f'<rect x="{rx2:.1f}" y="{ry2:.1f}" '
+            f'width="{rw2:.1f}" height="{rh2:.1f}" rx="2" '
+            f'fill="{fill}" stroke="{BG}" stroke-width="1">'
+            f'<animate attributeName="opacity" '
+            f'values="1;{lo};1" dur="{dur}s" begin="{dly}s" '
             f'repeatCount="indefinite"/>'
             f'</rect>'
         )
 
-        # Text — only render if tile is big enough
-        if rw > 55 and rh > 28:
-            # Repo name — truncate to fit
-            max_chars = max(4, int(rw / 7.5))
-            name_str  = meta["name"][:max_chars]
-            lang_str  = meta["lang"]
+        # Bright top-edge highlight (like Finviz)
+        hl_color = "#4dff4d" if score >= 0 else "#ff4d4d"
+        parts.append(
+            f'<rect x="{rx2:.1f}" y="{ry2:.1f}" '
+            f'width="{rw2:.1f}" height="2" rx="0" fill="{hl_color}" opacity="0.6"/>'
+        )
 
-            name_size = min(13, max(9, int(rw / 9)))
-            meta_size = min(10, max(8, int(rw / 11)))
+        # Text — scale to tile size
+        cx = rx2 + rw2 / 2
+        cy = ry2 + rh2 / 2
 
-            cx = rx + rw / 2
+        if rw2 >= 60 and rh2 >= 36:
+            # Full: name + metric
+            name_size   = max(9, min(18, int(rw2 / 6.5)))
+            metric_size = max(8, min(13, int(rw2 / 9)))
+            max_chars   = max(3, int(rw2 / (name_size * 0.62)))
+            label_str   = meta["label"][:max_chars]
+            metric_col  = "#ffffff"
 
-            if rh > 48:
-                parts.append(
-                    f'<text x="{cx:.1f}" y="{ry + rh*0.42:.1f}" '
-                    f'font-family="{FONT}" font-size="{name_size}" font-weight="700" '
-                    f'fill="{txt_c}" text-anchor="middle" xml:space="preserve">{esc(name_str)}</text>'
-                )
-                parts.append(
-                    f'<text x="{cx:.1f}" y="{ry + rh*0.42 + meta_size + 4:.1f}" '
-                    f'font-family="{FONT}" font-size="{meta_size}" font-weight="400" '
-                    f'fill="{pct_c}" text-anchor="middle" xml:space="preserve">{esc(meta["pct"])}</text>'
-                )
-                if rh > 68 and rw > 70:
-                    parts.append(
-                        f'<text x="{cx:.1f}" y="{ry + rh*0.42 + meta_size*2 + 9:.1f}" '
-                        f'font-family="{FONT}" font-size="{max(7, meta_size-1)}" font-weight="400" '
-                        f'fill="{txt_c}" opacity="0.55" text-anchor="middle" xml:space="preserve">'
-                        f'{esc(lang_str)}</text>'
-                    )
+            if rh2 >= 56:
+                # Two lines: name above, metric below centre
+                parts.append(txt(cx, cy - metric_size * 0.9, label_str,
+                                  name_size, "#ffffff", "700"))
+                parts.append(txt(cx, cy + name_size * 0.7, meta["metric"],
+                                  metric_size, metric_col, "400"))
+                if rh2 >= 76 and rw2 >= 90:
+                    parts.append(txt(cx, cy + name_size * 0.7 + metric_size + 3,
+                                      meta["lang"], max(7, metric_size - 2),
+                                      "#ffffff", "400", opacity=0.5))
             else:
-                # Single line for small tiles
-                parts.append(
-                    f'<text x="{cx:.1f}" y="{ry + rh*0.62:.1f}" '
-                    f'font-family="{FONT}" font-size="{name_size}" font-weight="700" '
-                    f'fill="{txt_c}" text-anchor="middle" xml:space="preserve">{esc(name_str)}</text>'
-                )
+                # Single line: name only
+                parts.append(txt(cx, cy, label_str, name_size, "#ffffff", "700"))
+
+        elif rw2 >= 28 and rh2 >= 20:
+            # Tiny tile: abbreviated name
+            name_size = max(7, min(11, int(rw2 / 5)))
+            max_chars = max(2, int(rw2 / (name_size * 0.65)))
+            parts.append(txt(cx, cy, meta["label"][:max_chars],
+                              name_size, "#ffffff", "700"))
 
         parts.append("</g>")
 
     return "\n".join(parts)
 
 
+# ── Sidebar ───────────────────────────────────────────────────────────────────
+def render_sidebar(info, repos, tiles):
+    sx   = W - SIDEBAR_W + 10
+    sw   = SIDEBAR_W - 16
+    parts = []
+
+    # Panel bg
+    parts.append(
+        f'<rect x="{W - SIDEBAR_W}" y="{HEADER_H}" '
+        f'width="{SIDEBAR_W}" height="{H - HEADER_H - TICK_H}" '
+        f'fill="{SIDEBAR_BG}"/>'
+    )
+    parts.append(
+        f'<rect x="{W - SIDEBAR_W}" y="{HEADER_H}" '
+        f'width="1" height="{H - HEADER_H - TICK_H}" fill="{BORDER}"/>'
+    )
+
+    y = HEADER_H + 18
+    parts.append(txt(sx + sw / 2, y, "MARKET SUMMARY",
+                      9, BLUE, "600", anchor="middle"))
+    y += 4
+    parts.append(
+        f'<line x1="{sx}" y1="{y}" x2="{sx+sw}" y2="{y}" '
+        f'stroke="{BORDER}" stroke-width="1"/>'
+    )
+    y += 14
+
+    total_stars  = sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork"))
+    total_forks  = sum(r.get("forks_count", 0)      for r in repos if not r.get("fork"))
+    repo_count   = info.get("public_repos", "—")
+    followers    = info.get("followers", "—")
+
+    for label, val, vc in [
+        ("REPOS",      str(repo_count),   WHITE),
+        ("FOLLOWERS",  str(followers),    WHITE),
+        ("TOTAL ★",    str(total_stars),  YELL),
+        ("FORKS",      str(total_forks),  DIM),
+    ]:
+        parts.append(txt(sx,        y, label, 9,  DIM,   "500", anchor="start"))
+        parts.append(txt(sx + sw,   y, val,   13, vc,    "700", anchor="end"))
+        y += 22
+
+    # Divider
+    parts.append(
+        f'<line x1="{sx}" y1="{y}" x2="{sx+sw}" y2="{y}" '
+        f'stroke="{BORDER}" stroke-width="1"/>'
+    )
+    y += 14
+
+    # Language dist
+    parts.append(txt(sx + sw / 2, y, "LANGUAGE DIST", 9, BLUE, "600", anchor="middle"))
+    y += 12
+
+    lang_map: dict[str, int] = {}
+    for r in repos:
+        if not r.get("fork") and r.get("language"):
+            lang_map[r["language"]] = lang_map.get(r["language"], 0) + 1
+    total_lang = sum(lang_map.values()) or 1
+
+    LCOL = {
+        "TypeScript": "#3178c6", "JavaScript": "#f1e05a",
+        "Python": "#3572a5",     "HTML": "#e34c26",
+        "CSS": "#563d7c",        "Go": "#00add8",
+        "Rust": "#dea584",       "Java": "#b07219",
+        "C++": "#f34b7d",        "C": "#555555",
+        "Ruby": "#701516",       "Swift": "#fa7343",
+    }
+
+    # Stacked bar
+    bar_items = sorted(lang_map.items(), key=lambda x: -x[1])[:7]
+    bx = sx
+    for lang, cnt in bar_items:
+        seg = (cnt / total_lang) * sw
+        col = LCOL.get(lang, "#4a90d9")
+        if seg >= 1:
+            parts.append(
+                f'<rect x="{bx:.1f}" y="{y}" width="{seg:.1f}" height="7" '
+                f'rx="0" fill="{col}"/>'
+            )
+            bx += seg
+    y += 14
+
+    for lang, cnt in bar_items[:6]:
+        col  = LCOL.get(lang, "#4a90d9")
+        pct  = round(cnt / total_lang * 100)
+        parts.append(
+            f'<rect x="{sx}" y="{y-7}" width="7" height="7" rx="1" fill="{col}"/>'
+        )
+        parts.append(txt(sx + 10, y, lang[:12], 9, WHITE, "400", anchor="start"))
+        parts.append(txt(sx + sw, y, f"{pct}%", 9, DIM,   "400", anchor="end"))
+        y += 13
+
+    y += 4
+    parts.append(
+        f'<line x1="{sx}" y1="{y}" x2="{sx+sw}" y2="{y}" '
+        f'stroke="{BORDER}" stroke-width="1"/>'
+    )
+    y += 14
+
+    # Top repos
+    parts.append(txt(sx + sw / 2, y, "TOP REPOS", 9, BLUE, "600", anchor="middle"))
+    y += 13
+
+    top5 = sorted(
+        [r for r in repos if not r.get("fork")],
+        key=lambda r: r.get("stargazers_count", 0) * 3 + r.get("forks_count", 0),
+        reverse=True,
+    )[:6]
+    for r in top5:
+        name_  = r["name"][:16]
+        stars_ = r.get("stargazers_count", 0)
+        col_   = GRTXT if stars_ > 0 else DIM
+        parts.append(txt(sx,       y, f"▸ {name_}", 9, WHITE, "400", anchor="start"))
+        parts.append(txt(sx + sw,  y, f"★{stars_}", 9, col_,  "600", anchor="end"))
+        y += 13
+
+    # Footer
+    y = H - TICK_H - 14
+    parts.append(txt(sx + sw / 2, y, f"AUTO-REFRESH · {USER}", 8, DIM, anchor="middle"))
+
+    return "\n".join(parts)
+
+
 # ── Header bar ────────────────────────────────────────────────────────────────
-def header_bar(total_stars):
-    sign  = "▲"
-    score = f"+{total_stars}★  TODAY"
+def render_header(total_stars):
+    mid = (W - SIDEBAR_W) // 2
     return "\n".join([
-        f'<rect x="0" y="0" width="{W}" height="44" fill="{PANEL_BG}"/>',
-        f'<rect x="0" y="44" width="{W}" height="1" fill="{BORDER_ACT}"/>',
-        # Logo / brand
-        f'<text x="14" y="28" font-family="{FONT}" font-size="14" font-weight="700" '
-        f'fill="{BRIGHT}">KMCR</text>',
-        f'<text x="60" y="28" font-family="{FONT}" font-size="14" font-weight="400" '
-        f'fill="{MUTED}">DEVELOPER MARKET</text>',
-        # Blinking cursor
-        f'<text x="240" y="28" font-family="{FONT}" font-size="14" font-weight="400" '
-        f'fill="{ACCENT}" class="cursor">█</text>',
+        f'<rect x="0" y="0" width="{W}" height="{HEADER_H}" fill="{HEADER_BG}"/>',
+        f'<rect x="0" y="{HEADER_H-1}" width="{W}" height="1" fill="{BORDER}"/>',
+        # Brand
+        txt(14, HEADER_H / 2, "KMCR", 14, BLUE,  "700", anchor="start"),
+        txt(58, HEADER_H / 2, "DEVELOPER MARKET", 11, DIM, anchor="start"),
         # Live badge
-        f'<rect x="{W//2 - 30}" y="12" width="60" height="20" rx="3" fill="#0F3D22"/>',
-        f'<text x="{W//2}" y="26" font-family="{FONT}" font-size="10" font-weight="700" '
-        f'fill="{GREEN_TXT}" text-anchor="middle">● LIVE</text>',
-        # Stars summary
-        f'<text x="{SIDEBAR_X - 12}" y="28" font-family="{FONT}" font-size="12" '
-        f'font-weight="600" fill="{GREEN_TXT}" text-anchor="end">{esc(sign)} {esc(score)}</text>',
+        f'<rect x="{mid-28}" y="9" width="56" height="18" rx="3" fill="#0f2d17"/>',
+        txt(mid, HEADER_H / 2, "● LIVE", 10, GRTXT, "700"),
+        # Stats
+        txt(W - SIDEBAR_W - 12, HEADER_H / 2,
+            f"▲ +{total_stars}★  TODAY", 11, GRTXT, "600", anchor="end"),
+        # Blinking cursor
+        f'<text x="245" y="{HEADER_H*0.68:.0f}" font-family="{FONT}" '
+        f'font-size="13" fill="{BLUE}" dominant-baseline="central">'
+        f'<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" '
+        f'repeatCount="indefinite"/>█</text>',
     ])
+
+
+# ── Ticker tape ───────────────────────────────────────────────────────────────
+def render_ticker(tiles):
+    items = []
+    for t in tiles:
+        sym  = t["label"][:10]
+        col  = GRTXT if t["score"] >= 0 else RDTXT
+        sign = "▲" if t["score"] >= 0 else "▼"
+        items.append((sym, f"{sign} {t['metric']}", col))
+    items = items * 2   # duplicate for seamless scroll
+
+    px = 0
+    parts = []
+    for sym, metric, col in items:
+        parts.append(
+            f'<text x="{px}" y="14" font-family="{FONT}" font-size="10" '
+            f'font-weight="600" fill="{WHITE}" dominant-baseline="central">'
+            f'{esc(sym)}</text>'
+        )
+        parts.append(
+            f'<text x="{px+82}" y="14" font-family="{FONT}" font-size="10" '
+            f'fill="{col}" dominant-baseline="central">{esc(metric)}</text>'
+        )
+        parts.append(
+            f'<text x="{px+148}" y="14" font-family="{FONT}" font-size="10" '
+            f'fill="{BORDER}" dominant-baseline="central">│</text>'
+        )
+        px += 160
+
+    ty = H - TICK_H
+    return "\n".join([
+        f'<rect x="0" y="{ty}" width="{W}" height="{TICK_H}" fill="{HEADER_BG}"/>',
+        f'<rect x="0" y="{ty}" width="{W}" height="1" fill="{BORDER}"/>',
+        f'<clipPath id="tc"><rect x="0" y="{ty}" width="{W-4}" height="{TICK_H}"/></clipPath>',
+        f'<g clip-path="url(#tc)">',
+        f'<g transform="translate(0,{ty})" style="animation:ticker 30s linear infinite">',
+        *parts,
+        "</g></g>",
+    ])
+
+
+# ── CSS ───────────────────────────────────────────────────────────────────────
+CSS = """\
+<style>
+  @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+</style>"""
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    print("Fetching GitHub profile …")
-    profile = fetch_profile()
-    print(f"  {profile}")
+    print("Fetching GitHub data …")
+    info, repos = fetch_all()
+    print(f"  {len(repos)} repos")
 
-    print("Fetching repositories …")
-    repos = fetch_repos()
-    print(f"  {len(repos)} repos fetched")
+    tiles       = make_tiles(repos)
+    total_stars = sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork"))
+    print(f"  {len(tiles)} tiles · {total_stars} total stars")
 
-    # Total stars
-    total_stars = sum(r.get("stargazers_count", 0) for r in repos
-                      if not r.get("fork"))
-
-    # Language distribution (count repos per language)
-    languages: dict[str, int] = {}
-    for r in repos:
-        if r.get("fork"):
-            continue
-        lang = r.get("language")
-        if lang:
-            languages[lang] = languages.get(lang, 0) + 1
-
-    # Build tiles
-    tiles = build_tile_data(repos)
-    print(f"  {len(tiles)} tiles generated")
-
-    tile_count = len(tiles)
-    css        = animation_css(tile_count)
-    tile_svg   = render_tiles(tiles)
-    side_svg   = sidebar(profile, repos, total_stars, languages)
-    head_svg   = header_bar(total_stars)
-    tape_svg   = ticker_tape(tiles)
-
-    svg = "\n".join([
+    svg_parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-        f'role="img" aria-label="K Mani Charan Reddy — Developer Market Heatmap">',
+        f'role="img" aria-label="KMCR Developer Market Heatmap">',
         "<title>KMCR Developer Market Heatmap</title>",
-        css,
+        CSS,
         # Background
         f'<rect width="{W}" height="{H}" fill="{BG}"/>',
-        # Grid lines (subtle)
-        "".join(
-            f'<line x1="{HEATMAP_X}" y1="{y}" x2="{HEATMAP_X+HEATMAP_W}" y2="{y}" '
-            f'stroke="{GRID_LINE}" stroke-width="0.5"/>'
-            for y in range(HEATMAP_Y, H - 22, 40)
-        ),
-        head_svg,
-        tile_svg,
-        side_svg,
-        tape_svg,
+        # Heatmap tiles
+        render_tiles(tiles),
+        # Right sidebar
+        render_sidebar(info, repos, tiles),
+        # Top header
+        render_header(total_stars),
+        # Bottom ticker
+        render_ticker(tiles),
         "</svg>",
-    ])
+    ]
 
+    svg = "\n".join(svg_parts)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(svg, encoding="utf-8")
-    print(f"Wrote  {OUTPUT}")
+    print(f"Wrote {OUTPUT}  ({len(svg):,} chars)")
 
 
 if __name__ == "__main__":

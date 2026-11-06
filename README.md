@@ -17,20 +17,146 @@
 
 I'm a Computer Science Engineering undergraduate at **MLR Institute of Technology (2029)**, based in Hyderabad, India. I enjoy creating responsive web applications, designing memorable UI/UX, and translating ideas into real products. Outside of coding, I'm into motorsports, photography, and videography.
 
-- **Frontend:** React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS
-- **Backend & Data:** Node.js, REST APIs, MongoDB, Supabase
-- **Design & Tools:** Figma, GitHub, Vercel, Cursor
-- **Interests:** Web development, UI/UX, cars, bikes, photography, videography
+<br/>
 
-## Featured projects
+## ⚡ Tech Stack
 
-| Project | What it does |
-| --- | --- |
-| [FarCar Fix](https://github.com/KMCR41207/FarCarFix) | AI-powered roadside help, image-based diagnostics, DIY steps, and mechanic discovery |
-| [FleetFlow / Logistix](https://github.com/KMCR41207/LOGISTIX) | Freight, fleet, and delivery operations platform |
-| [Livaani / LIVN](https://github.com/KMCR41207/LIVN) | Premium ethnic fashion e-commerce and bespoke shopping experience |
-| [Stackweb](https://github.com/KMCR41207/StackWeb) | Custom web development and design startup |
-| [ASR Infra](https://github.com/KMCR41207/ASR-INFRA) | Logistics and construction-material services platform |
+<div align="center">
+
+### Frontend Development
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+### Backend & Databases
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+
+### Design & Creative Tools
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
+
+### Development Tools
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
+
+</div>
+
+<br/>
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 · FarCarFix
+#### AI-Powered Automotive Diagnostics
+
+[![FarCarFix](https://img.shields.io/badge/VIEW_SOURCE-245BDB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMCR41207/FarCarFix)
+[![Stars](https://img.shields.io/github/stars/KMCR41207/FarCarFix?style=flat-square&color=245BDB)](https://github.com/KMCR41207/FarCarFix/stargazers)
+[![Forks](https://img.shields.io/github/forks/KMCR41207/FarCarFix?style=flat-square&color=8A94A6)](https://github.com/KMCR41207/FarCarFix/network/members)
+
+AI-assisted vehicle diagnostics platform with image-based issue detection, repair guidance, cost estimation, and mechanic discovery services.
+
+**Tech Stack:**
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+
+</td>
+<td width="50%" valign="top">
+
+### 02 · FleetFlow
+#### Digital Freight Logistics Platform
+
+[![FleetFlow](https://img.shields.io/badge/VIEW_SOURCE-245BDB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMCR41207/LOGISTIX)
+[![Stars](https://img.shields.io/github/stars/KMCR41207/LOGISTIX?style=flat-square&color=245BDB)](https://github.com/KMCR41207/LOGISTIX/stargazers)
+[![Forks](https://img.shields.io/github/forks/KMCR41207/LOGISTIX?style=flat-square&color=8A94A6)](https://github.com/KMCR41207/LOGISTIX/network/members)
+
+Comprehensive fleet and logistics management system connecting shippers, drivers, fleet owners, and administrators on a unified platform.
+
+**Tech Stack:**
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 03 · Livaani
+#### Ethnic Fashion E-Commerce
+
+[![Livaani](https://img.shields.io/badge/VIEW_SOURCE-245BDB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMCR41207/LIVN)
+[![Stars](https://img.shields.io/github/stars/KMCR41207/LIVN?style=flat-square&color=245BDB)](https://github.com/KMCR41207/LIVN/stargazers)
+[![Forks](https://img.shields.io/github/forks/KMCR41207/LIVN?style=flat-square&color=8A94A6)](https://github.com/KMCR41207/LIVN/network/members)
+
+Modern Indian ethnic fashion e-commerce platform featuring product discovery, customization, authentication, and order management systems.
+
+**Tech Stack:**
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
+</td>
+<td width="50%" valign="top">
+
+### 04 · Stackweb
+#### Web Development Studio
+
+[![Stackweb](https://img.shields.io/badge/VIEW_SOURCE-245BDB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMCR41207/StackWeb)
+[![Stars](https://img.shields.io/github/stars/KMCR41207/StackWeb?style=flat-square&color=245BDB)](https://github.com/KMCR41207/StackWeb/stargazers)
+[![Forks](https://img.shields.io/github/forks/KMCR41207/StackWeb?style=flat-square&color=8A94A6)](https://github.com/KMCR41207/StackWeb/network/members)
+
+Professional web development and design startup delivering responsive business websites, e-commerce solutions, and custom web applications.
+
+**Tech Stack:**
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 05 · ASR Infra
+#### Logistics & Infrastructure Services
+
+[![ASR Infra](https://img.shields.io/badge/VIEW_SOURCE-245BDB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMCR41207/ASR-INFRA)
+[![Stars](https://img.shields.io/github/stars/KMCR41207/ASR-INFRA?style=flat-square&color=245BDB)](https://github.com/KMCR41207/ASR-INFRA/stargazers)
+[![Forks](https://img.shields.io/github/forks/KMCR41207/ASR-INFRA?style=flat-square&color=8A94A6)](https://github.com/KMCR41207/ASR-INFRA/network/members)
+
+Integrated logistics, transportation, and construction-material services platform streamlining infrastructure operations and supply chain management.
+
+**Tech Stack:**
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
+
+</table>
+
+<br/>
 
 ## Developer market heatmap
 

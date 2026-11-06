@@ -60,8 +60,8 @@ def api_json(url):
 
 def public_stats():
     user = api_json(f"https://api.github.com/users/{USER}")
-    repos = user.get("public_repos", "—") if isinstance(user, dict) else "—"
-    followers = user.get("followers", "—") if isinstance(user, dict) else "—"
+    repos = user.get("public_repos", "ΓÇö") if isinstance(user, dict) else "ΓÇö"
+    followers = user.get("followers", "ΓÇö") if isinstance(user, dict) else "ΓÇö"
     stars = 0
     complete = True
     for page in range(1, 16):
@@ -74,7 +74,7 @@ def public_stats():
             break
     else:
         complete = False
-    return str(repos), str(followers), str(stars) if complete else "—"
+    return str(repos), str(followers), str(stars) if complete else "ΓÇö"
 
 
 # The car is not an image, bitmap, path, or an embedded file.

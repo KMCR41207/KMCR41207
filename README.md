@@ -15,7 +15,13 @@
 
 ## About me
 
-I'm a Computer Science Engineering undergraduate at **MLR Institute of Technology (2029)**, based in Hyderabad, India. I enjoy creating responsive web applications, designing memorable UI/UX, and translating ideas into real products. Outside of coding, I'm into motorsports, photography, and videography.
+Growing up around logistics operations—tractors, harvesters, and transportation systems—I developed an early fascination with how complex real-world problems get solved through coordination and smart systems. Photography and videography taught me to see composition, tell stories, and appreciate design that works.
+
+My first B.Tech hackathon changed everything. I discovered that ideas could become actual, functioning products—that code wasn't just theory. Since then, I've been combining software engineering with UI/UX design to build platforms for logistics, e-commerce, automotive assistance, and business solutions.
+
+I lead hackathon teams, enjoy explaining technical concepts, and take projects from initial sketches to deployed applications. Outside development, you'll find me exploring cars, motorcycles, and motorsports—where precision engineering meets pure speed.
+
+Currently pursuing **B.Tech in Computer Science Engineering at MLR Institute of Technology (2029)**, based in **Hyderabad, India**.
 
 <br/>
 

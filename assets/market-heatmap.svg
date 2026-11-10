@@ -3,42 +3,42 @@
 <style>@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
 <rect width="1060" height="520" fill="#0d1117"/>
 <g id="t0">
-<rect x="8.0" y="46.0" width="73.0" height="50.0" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="5.0s" begin="2.7s" repeatCount="indefinite"/></rect>
+<rect x="8.0" y="46.0" width="73.0" height="50.0" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="5.0s" begin="2.7s" repeatCount="indefinite"/></rect>
 <rect x="8.0" y="46.0" width="73.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="44.5" y="63.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">CONTINUUM</text>
-<text x="44.5" y="78.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1★</text>
+<text x="44.5" y="63.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FARCARFIX</text>
+<text x="44.5" y="78.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+2★</text>
 </g>
 <g id="t1">
-<rect x="77.5" y="46.0" width="59.8" height="40.0" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="3.4s" begin="1.8s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="46.0" width="59.8" height="40.0" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="3.4s" begin="1.8s" repeatCount="indefinite"/></rect>
 <rect x="77.5" y="46.0" width="59.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="107.4" y="66.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTIX</text>
+<text x="107.4" y="66.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">CONTINUUM</text>
 </g>
 <g id="t2">
-<rect x="147.0" y="46.0" width="66.7" height="42.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.0s" begin="0.4s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="46.0" width="66.7" height="42.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.0s" begin="0.4s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="46.0" width="66.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="180.3" y="60.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FARCARFIX</text>
+<text x="180.3" y="60.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTIX</text>
 <text x="180.3" y="73.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1★</text>
 </g>
 <g id="t3">
-<rect x="216.5" y="46.0" width="60.0" height="41.3" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.9s" begin="0.1s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="46.0" width="60.0" height="41.3" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.9s" begin="0.1s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="46.0" width="60.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="246.5" y="66.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">ASR-INFRA</text>
 </g>
 <g id="t4">
-<rect x="286.0" y="46.0" width="59.7" height="50.0" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.3s" begin="3.5s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="46.0" width="59.7" height="50.0" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.3s" begin="3.5s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="46.0" width="59.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="315.8" y="65.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LIVN</text>
 <text x="315.8" y="76.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1★</text>
 </g>
 <g id="t5">
-<rect x="355.5" y="46.0" width="72.3" height="44.3" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="3.4s" begin="2.7s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="46.0" width="72.3" height="44.3" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="3.4s" begin="2.7s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="46.0" width="72.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="391.6" y="60.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">STACKWEB</text>
 <text x="391.6" y="75.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1★</text>
 </g>
 <g id="t6">
-<rect x="425.0" y="46.0" width="62.7" height="44.0" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.9s" begin="0.3s" repeatCount="indefinite"/></rect>
-<rect x="425.0" y="46.0" width="62.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="425.0" y="46.0" width="62.7" height="44.0" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.9s" begin="0.3s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="46.0" width="62.7" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="456.4" y="62.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">EVENT-HUB</text>
 <text x="456.4" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">77MB</text>
 </g>
@@ -49,19 +49,19 @@
 <text x="531.3" y="79.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">56MB</text>
 </g>
 <g id="t8">
-<rect x="564.0" y="46.0" width="67.7" height="42.0" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="3.6s" begin="1.7s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="46.0" width="67.7" height="42.0" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="3.6s" begin="1.7s" repeatCount="indefinite"/></rect>
 <rect x="564.0" y="46.0" width="67.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="597.8" y="60.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PRIMEFLEX</text>
 <text x="597.8" y="73.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">44MB</text>
 </g>
 <g id="t9">
-<rect x="633.5" y="46.0" width="58.9" height="49.4" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.4s" begin="0.9s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="46.0" width="58.9" height="49.4" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.4s" begin="0.9s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="46.0" width="58.9" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="663.0" y="65.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">HYPERPULSE</text>
 <text x="663.0" y="76.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">11MB</text>
 </g>
 <g id="t10">
-<rect x="703.0" y="46.0" width="75.2" height="41.8" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="46.0" width="75.2" height="41.8" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="46.0" width="75.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="740.6" y="66.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PRIMEFLEX</text>
 </g>
@@ -72,119 +72,119 @@
 <text x="804.0" y="77.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6MB</text>
 </g>
 <g id="t12">
-<rect x="8.0" y="95.8" width="58.7" height="40.4" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="3.7s" begin="0.6s" repeatCount="indefinite"/></rect>
-<rect x="8.0" y="95.8" width="58.7" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<rect x="8.0" y="95.8" width="58.7" height="40.4" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="3.7s" begin="0.6s" repeatCount="indefinite"/></rect>
+<rect x="8.0" y="95.8" width="58.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="37.3" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUHA-H</text>
 </g>
 <g id="t13">
-<rect x="77.5" y="95.8" width="69.5" height="50.0" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="95.8" width="69.5" height="50.0" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/></rect>
 <rect x="77.5" y="95.8" width="69.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="112.2" y="114.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FIXMACH-A</text>
-<text x="112.2" y="127.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">643KB</text>
+<text x="112.2" y="114.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★FarCarFi</text>
+<text x="112.2" y="127.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+2</text>
 </g>
 <g id="t14">
-<rect x="147.0" y="95.8" width="64.6" height="52.1" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.8s" begin="0.2s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="95.8" width="64.6" height="52.1" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.8s" begin="0.2s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="95.8" width="64.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="179.3" y="115.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FIXMACH-A</text>
-<text x="179.3" y="127.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">607KB</text>
+<text x="179.3" y="127.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">643KB</text>
 </g>
 <g id="t15">
 <rect x="216.5" y="95.8" width="63.0" height="47.0" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="3.0s" begin="1.5s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="95.8" width="63.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="248.0" y="113.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">KMCR41207</text>
-<text x="248.0" y="125.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">91KB</text>
+<text x="248.0" y="113.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FIXMACH-A</text>
+<text x="248.0" y="125.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">607KB</text>
 </g>
 <g id="t16">
-<rect x="286.0" y="95.8" width="58.5" height="44.6" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.4s" begin="2.2s" repeatCount="indefinite"/></rect>
-<rect x="286.0" y="95.8" width="58.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="315.2" y="112.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★Continuu</text>
-<text x="315.2" y="123.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
+<rect x="286.0" y="95.8" width="58.5" height="44.6" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.4s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="95.8" width="58.5" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<text x="315.2" y="112.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">KMCR41207</text>
+<text x="315.2" y="123.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">115KB</text>
 </g>
 <g id="t17">
-<rect x="355.5" y="95.8" width="62.8" height="51.1" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="2.9s" begin="2.6s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="95.8" width="62.8" height="51.1" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="2.9s" begin="2.6s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="95.8" width="62.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="386.9" y="115.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
-<text x="386.9" y="127.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">944</text>
+<text x="386.9" y="127.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">361</text>
 </g>
 <g id="t18">
-<rect x="425.0" y="95.8" width="66.2" height="42.6" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.4s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="95.8" width="66.2" height="42.6" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.4s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="425.0" y="95.8" width="66.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="458.1" y="110.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★LOGISTIX</text>
+<text x="458.1" y="110.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★Continuu</text>
 <text x="458.1" y="123.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
 </g>
 <g id="t19">
-<rect x="494.5" y="95.8" width="75.6" height="49.3" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="3.9s" begin="0.3s" repeatCount="indefinite"/></rect>
-<rect x="494.5" y="95.8" width="75.6" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
-<text x="532.3" y="113.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PEOPLIX-D</text>
-<text x="532.3" y="127.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">57KB</text>
+<rect x="494.5" y="95.8" width="75.6" height="49.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="3.9s" begin="0.3s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="95.8" width="75.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<text x="532.3" y="113.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
+<text x="532.3" y="127.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">944</text>
 </g>
 <g id="t20">
-<rect x="564.0" y="95.8" width="68.6" height="50.8" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="3.1s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="95.8" width="68.6" height="50.8" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="3.1s" begin="2.2s" repeatCount="indefinite"/></rect>
 <rect x="564.0" y="95.8" width="68.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="598.3" y="114.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★FarCarFi</text>
+<text x="598.3" y="114.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★LOGISTIX</text>
 <text x="598.3" y="127.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
 </g>
 <g id="t21">
-<rect x="633.5" y="95.8" width="74.5" height="40.3" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.5s" begin="2.0s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="95.8" width="74.5" height="40.3" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.5s" begin="2.0s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="95.8" width="74.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="670.7" y="115.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
+<text x="670.7" y="115.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PEOPLIX-D</text>
 </g>
 <g id="t22">
-<rect x="703.0" y="95.8" width="69.7" height="46.3" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="5.0s" begin="1.0s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="95.8" width="69.7" height="46.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="5.0s" begin="1.0s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="95.8" width="69.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="737.8" y="112.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★ASR-INFR</text>
-<text x="737.8" y="125.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
+<text x="737.8" y="112.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
+<text x="737.8" y="125.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">581</text>
 </g>
 <g id="t23">
-<rect x="772.5" y="95.8" width="69.9" height="47.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="3.9s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="772.5" y="95.8" width="69.9" height="47.3" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="3.9s" begin="2.2s" repeatCount="indefinite"/></rect>
 <rect x="772.5" y="95.8" width="69.9" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="807.5" y="113.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
-<text x="807.5" y="126.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">361</text>
+<text x="807.5" y="113.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★ASR-INFR</text>
+<text x="807.5" y="126.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
 </g>
 <g id="t24">
-<rect x="8.0" y="145.6" width="72.3" height="46.8" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="2.7s" begin="2.1s" repeatCount="indefinite"/></rect>
+<rect x="8.0" y="145.6" width="72.3" height="46.8" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="2.7s" begin="2.1s" repeatCount="indefinite"/></rect>
 <rect x="8.0" y="145.6" width="72.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="44.1" y="161.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="44.1" y="176.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">341</text>
 </g>
 <g id="t25">
-<rect x="77.5" y="145.6" width="61.0" height="49.9" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="3.4s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="145.6" width="61.0" height="49.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="3.4s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="77.5" y="145.6" width="61.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="108.0" y="164.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★LIVN</text>
 <text x="108.0" y="176.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
 </g>
 <g id="t26">
-<rect x="147.0" y="145.6" width="71.6" height="44.5" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="2.6s" begin="1.4s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="145.6" width="71.6" height="44.5" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="2.6s" begin="1.4s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="145.6" width="71.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="182.8" y="161.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★StackWeb</text>
 <text x="182.8" y="174.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
 </g>
 <g id="t27">
-<rect x="216.5" y="145.6" width="59.2" height="48.1" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.7s" begin="0.1s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="145.6" width="59.2" height="48.1" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.7s" begin="0.1s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="145.6" width="59.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="246.1" y="164.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">JAVASCRI</text>
 <text x="246.1" y="175.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">123</text>
 </g>
 <g id="t28">
-<rect x="286.0" y="145.6" width="58.7" height="49.4" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="4.9s" begin="0.7s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="145.6" width="58.7" height="49.4" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="4.9s" begin="0.7s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="145.6" width="58.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="315.3" y="164.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="315.3" y="175.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">69</text>
 </g>
 <g id="t29">
-<rect x="355.5" y="145.6" width="64.3" height="50.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.2s" begin="3.1s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="145.6" width="64.3" height="50.9" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.2s" begin="3.1s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="145.6" width="64.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="387.6" y="164.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="387.6" y="177.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">793</text>
 </g>
 <g id="t30">
-<rect x="425.0" y="145.6" width="68.2" height="44.1" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="4.4s" begin="1.6s" repeatCount="indefinite"/></rect>
-<rect x="425.0" y="145.6" width="68.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="425.0" y="145.6" width="68.2" height="44.1" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="4.4s" begin="1.6s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="145.6" width="68.2" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="459.1" y="161.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">VOLTVISIO</text>
 <text x="459.1" y="174.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">24KB</text>
 </g>
 <g id="t31">
-<rect x="494.5" y="145.6" width="75.4" height="48.2" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.3s" begin="2.1s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="145.6" width="75.4" height="48.2" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.3s" begin="2.1s" repeatCount="indefinite"/></rect>
 <rect x="494.5" y="145.6" width="75.4" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="532.2" y="162.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">★Primefle</text>
 <text x="532.2" y="176.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">+1</text>
@@ -196,82 +196,82 @@
 <text x="595.3" y="174.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">580</text>
 </g>
 <g id="t33">
-<rect x="633.5" y="145.6" width="70.5" height="48.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="145.6" width="70.5" height="48.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="145.6" width="70.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="668.8" y="163.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="668.8" y="176.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">450</text>
 </g>
 <g id="t34">
-<rect x="703.0" y="145.6" width="70.5" height="52.4" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.0s" begin="2.7s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="145.6" width="70.5" height="52.4" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.0s" begin="2.7s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="145.6" width="70.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="738.3" y="165.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.S</text>
-<text x="738.3" y="178.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">47233</text>
+<text x="738.3" y="165.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.S</text>
+<text x="738.3" y="178.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">18052</text>
 </g>
 <g id="t35">
-<rect x="772.5" y="145.6" width="67.6" height="43.9" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></rect>
+<rect x="772.5" y="145.6" width="67.6" height="43.9" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></rect>
 <rect x="772.5" y="145.6" width="67.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="806.3" y="161.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.P</text>
-<text x="806.3" y="174.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">31489</text>
+<text x="806.3" y="161.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.P</text>
+<text x="806.3" y="174.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">12034</text>
 </g>
 <g id="t36">
 <rect x="8.0" y="195.3" width="58.0" height="51.7" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.8s" begin="3.2s" repeatCount="indefinite"/></rect>
 <rect x="8.0" y="195.3" width="58.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="37.0" y="215.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.D</text>
-<text x="37.0" y="226.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">23616</text>
+<text x="37.0" y="215.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.D</text>
+<text x="37.0" y="226.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">9026</text>
 </g>
 <g id="t37">
-<rect x="77.5" y="195.3" width="74.2" height="40.0" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="5.5s" begin="1.4s" repeatCount="indefinite"/></rect>
-<rect x="77.5" y="195.3" width="74.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="114.6" y="215.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">JAVASCRI</text>
+<rect x="77.5" y="195.3" width="74.2" height="40.0" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="5.5s" begin="1.4s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="195.3" width="74.2" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<text x="114.6" y="215.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.S</text>
 </g>
 <g id="t38">
-<rect x="147.0" y="195.3" width="64.6" height="52.5" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.4s" begin="0.1s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="195.3" width="64.6" height="52.5" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.4s" begin="0.1s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="195.3" width="64.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="179.3" y="215.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.S</text>
-<text x="179.3" y="227.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">29063</text>
+<text x="179.3" y="215.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.P</text>
+<text x="179.3" y="227.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">31489</text>
 </g>
 <g id="t39">
-<rect x="216.5" y="195.3" width="59.3" height="41.8" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.1s" begin="1.4s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="195.3" width="59.3" height="41.8" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.1s" begin="1.4s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="195.3" width="59.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="246.1" y="216.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.PK</text>
+<text x="246.1" y="216.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Continu.DO</text>
 </g>
 <g id="t40">
-<rect x="286.0" y="195.3" width="68.9" height="41.3" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="4.3s" begin="2.9s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="195.3" width="68.9" height="41.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="4.3s" begin="2.9s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="195.3" width="68.9" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="320.4" y="216.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.D</text>
+<text x="320.4" y="216.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">JAVASCRI</text>
 </g>
 <g id="t41">
-<rect x="355.5" y="195.3" width="69.7" height="50.4" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.6s" begin="1.0s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="195.3" width="69.7" height="50.4" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="4.6s" begin="1.0s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="195.3" width="69.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="390.4" y="214.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
-<text x="390.4" y="227.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6</text>
+<text x="390.4" y="214.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.S</text>
+<text x="390.4" y="227.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">29063</text>
 </g>
 <g id="t42">
-<rect x="425.0" y="195.3" width="64.1" height="43.4" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="5.2s" begin="3.5s" repeatCount="indefinite"/></rect>
-<rect x="425.0" y="195.3" width="64.1" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
-<text x="457.0" y="210.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.S</text>
-<text x="457.0" y="223.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">18052</text>
+<rect x="425.0" y="195.3" width="64.1" height="43.4" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="5.2s" begin="3.5s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="195.3" width="64.1" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<text x="457.0" y="210.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.P</text>
+<text x="457.0" y="223.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">19375</text>
 </g>
 <g id="t43">
-<rect x="494.5" y="195.3" width="57.8" height="47.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.9s" begin="2.1s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="195.3" width="57.8" height="47.9" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.9s" begin="2.1s" repeatCount="indefinite"/></rect>
 <rect x="494.5" y="195.3" width="57.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="523.4" y="213.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.P</text>
-<text x="523.4" y="224.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">12034</text>
+<text x="523.4" y="213.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LOGISTI.D</text>
+<text x="523.4" y="224.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">14531</text>
 </g>
 <g id="t44">
 <rect x="564.0" y="195.3" width="58.2" height="44.8" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.3s" begin="0.5s" repeatCount="indefinite"/></rect>
 <rect x="564.0" y="195.3" width="58.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="593.1" y="212.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">FarCarF.D</text>
-<text x="593.1" y="223.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">9026</text>
+<text x="593.1" y="212.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
+<text x="593.1" y="223.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6</text>
 </g>
 <g id="t45">
-<rect x="633.5" y="195.3" width="58.6" height="46.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="195.3" width="58.6" height="46.9" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="195.3" width="58.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="662.8" y="213.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">ASR-INF.SR</text>
 <text x="662.8" y="224.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">17085</text>
 </g>
 <g id="t46">
-<rect x="703.0" y="195.3" width="61.6" height="40.9" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="3.6s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="195.3" width="61.6" height="40.9" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="3.6s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="195.3" width="61.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="733.8" y="215.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">ASR-INF.P</text>
 </g>
@@ -287,29 +287,29 @@
 <text x="40.8" y="273.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">63</text>
 </g>
 <g id="t49">
-<rect x="77.5" y="245.1" width="59.6" height="48.4" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.82;1" dur="2.6s" begin="2.6s" repeatCount="indefinite"/></rect>
-<rect x="77.5" y="245.1" width="59.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="77.5" y="245.1" width="59.6" height="48.4" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.82;1" dur="2.6s" begin="2.6s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="245.1" width="59.6" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="107.3" y="263.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LIVN.SR</text>
 <text x="107.3" y="274.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6163</text>
 </g>
 <g id="t50">
-<rect x="147.0" y="245.1" width="65.5" height="40.9" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="5.3s" begin="3.3s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="245.1" width="65.5" height="40.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="5.3s" begin="3.3s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="245.1" width="65.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="179.7" y="265.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LIVN.PK</text>
 </g>
 <g id="t51">
-<rect x="216.5" y="245.1" width="62.6" height="50.8" rx="1" fill="#2ef04d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.3s" begin="0.2s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="245.1" width="62.6" height="50.8" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="3.3s" begin="0.2s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="245.1" width="62.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="247.8" y="264.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">LIVN.DO</text>
 <text x="247.8" y="276.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">3081</text>
 </g>
 <g id="t52">
-<rect x="286.0" y="245.1" width="69.6" height="39.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.3s" begin="1.9s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="245.1" width="69.6" height="39.9" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.3s" begin="1.9s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="245.1" width="69.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="320.8" y="265.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">StackWe.S</text>
 </g>
 <g id="t53">
-<rect x="355.5" y="245.1" width="61.2" height="40.0" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.5s" begin="3.0s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="245.1" width="61.2" height="40.0" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.5s" begin="3.0s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="245.1" width="61.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="386.1" y="265.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">StackWe.P</text>
 </g>
@@ -320,19 +320,19 @@
 <text x="458.0" y="274.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">1734</text>
 </g>
 <g id="t55">
-<rect x="494.5" y="245.1" width="75.5" height="44.1" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.9s" begin="1.9s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="245.1" width="75.5" height="44.1" rx="1" fill="#891e1e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="3.9s" begin="1.9s" repeatCount="indefinite"/></rect>
 <rect x="494.5" y="245.1" width="75.5" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="532.3" y="260.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">EVENT-H.S</text>
 <text x="532.3" y="274.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">39676</text>
 </g>
 <g id="t56">
-<rect x="564.0" y="245.1" width="66.4" height="48.2" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="5.4s" begin="2.9s" repeatCount="indefinite"/></rect>
-<rect x="564.0" y="245.1" width="66.4" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="564.0" y="245.1" width="66.4" height="48.2" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="5.4s" begin="2.9s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="245.1" width="66.4" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="597.2" y="262.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">EVENT-H.P</text>
 <text x="597.2" y="275.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">26450</text>
 </g>
 <g id="t57">
-<rect x="633.5" y="245.1" width="72.7" height="48.6" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="5.5s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="245.1" width="72.7" height="48.6" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="5.5s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="245.1" width="72.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="669.9" y="262.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">EVENT-H.D</text>
 <text x="669.9" y="276.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">19838</text>
@@ -355,49 +355,49 @@
 <text x="44.6" y="325.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">14509</text>
 </g>
 <g id="t61">
-<rect x="77.5" y="294.9" width="59.3" height="51.9" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></rect>
-<rect x="77.5" y="294.9" width="59.3" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<rect x="77.5" y="294.9" width="59.3" height="51.9" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="294.9" width="59.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="107.2" y="315.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Primefl.SR</text>
 <text x="107.2" y="326.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">22538</text>
 </g>
 <g id="t62">
-<rect x="147.0" y="294.9" width="71.5" height="47.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.4s" begin="2.4s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="294.9" width="71.5" height="47.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.4s" begin="2.4s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="294.9" width="71.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="182.7" y="312.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Primefl.P</text>
 <text x="182.7" y="325.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">15025</text>
 </g>
 <g id="t63">
-<rect x="216.5" y="294.9" width="60.6" height="48.5" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.1s" begin="1.2s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="294.9" width="60.6" height="48.5" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.1s" begin="1.2s" repeatCount="indefinite"/></rect>
 <rect x="216.5" y="294.9" width="60.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="246.8" y="313.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Primefl.D</text>
 <text x="246.8" y="325.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">11269</text>
 </g>
 <g id="t64">
-<rect x="286.0" y="294.9" width="61.4" height="49.4" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="2.7s" begin="2.4s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="294.9" width="61.4" height="49.4" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="2.7s" begin="2.4s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="294.9" width="61.4" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="316.7" y="314.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="316.7" y="325.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">9</text>
 </g>
 <g id="t65">
-<rect x="355.5" y="294.9" width="60.5" height="50.5" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="4.4s" begin="1.4s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="294.9" width="60.5" height="50.5" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="4.4s" begin="1.4s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="294.9" width="60.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="385.7" y="314.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="385.7" y="326.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6</text>
 </g>
 <g id="t66">
-<rect x="425.0" y="294.9" width="70.3" height="50.1" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="3.0s" begin="0.0s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="294.9" width="70.3" height="50.1" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="3.0s" begin="0.0s" repeatCount="indefinite"/></rect>
 <rect x="425.0" y="294.9" width="70.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="460.1" y="313.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="460.1" y="326.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6</text>
 </g>
 <g id="t67">
-<rect x="494.5" y="294.9" width="66.8" height="42.3" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.1s" begin="1.6s" repeatCount="indefinite"/></rect>
-<rect x="494.5" y="294.9" width="66.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="494.5" y="294.9" width="66.8" height="42.3" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.1s" begin="1.6s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="294.9" width="66.8" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="527.9" y="309.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Hyperpu.S</text>
 <text x="527.9" y="322.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">5854</text>
 </g>
 <g id="t68">
-<rect x="564.0" y="294.9" width="73.5" height="52.7" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.7s" begin="0.8s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="294.9" width="73.5" height="52.7" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.7s" begin="0.8s" repeatCount="indefinite"/></rect>
 <rect x="564.0" y="294.9" width="73.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="600.8" y="314.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Hyperpu.P</text>
 <text x="600.8" y="328.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">3903</text>
@@ -409,13 +409,13 @@
 <text x="667.8" y="327.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">2927</text>
 </g>
 <g id="t70">
-<rect x="703.0" y="294.9" width="69.0" height="53.1" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.1s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="294.9" width="69.0" height="53.1" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="3.1s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="294.9" width="69.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="737.5" y="315.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Primefl.S</text>
 <text x="737.5" y="328.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">327</text>
 </g>
 <g id="t71">
-<rect x="772.5" y="294.9" width="68.6" height="51.0" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/></rect>
+<rect x="772.5" y="294.9" width="68.6" height="51.0" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/></rect>
 <rect x="772.5" y="294.9" width="68.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="806.8" y="314.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Primefl.P</text>
 <text x="806.8" y="327.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">218</text>
@@ -445,146 +445,146 @@
 <text x="251.8" y="374.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">1581</text>
 </g>
 <g id="t76">
-<rect x="286.0" y="344.7" width="74.6" height="52.8" rx="1" fill="#891e1e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="3.5s" begin="0.9s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="344.7" width="74.6" height="52.8" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="3.5s" begin="0.9s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="344.7" width="74.6" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
-<text x="323.3" y="363.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.S</text>
-<text x="323.3" y="378.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">481</text>
+<text x="323.3" y="363.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PYTHON</text>
+<text x="323.3" y="378.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">1</text>
 </g>
 <g id="t77">
 <rect x="355.5" y="344.7" width="64.9" height="44.0" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="4.9s" begin="2.9s" repeatCount="indefinite"/></rect>
 <rect x="355.5" y="344.7" width="64.9" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
-<text x="388.0" y="360.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.P</text>
-<text x="388.0" y="372.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">321</text>
+<text x="388.0" y="360.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.S</text>
+<text x="388.0" y="372.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">481</text>
 </g>
 <g id="t78">
 <rect x="425.0" y="344.7" width="74.5" height="49.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="3.9s" begin="0.6s" repeatCount="indefinite"/></rect>
 <rect x="425.0" y="344.7" width="74.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="462.2" y="362.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.D</text>
-<text x="462.2" y="376.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">240</text>
+<text x="462.2" y="362.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.P</text>
+<text x="462.2" y="376.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">321</text>
 </g>
 <g id="t79">
-<rect x="494.5" y="344.7" width="57.8" height="47.7" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="2.8s" begin="3.2s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="344.7" width="57.8" height="47.7" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.9;1" dur="2.8s" begin="3.2s" repeatCount="indefinite"/></rect>
 <rect x="494.5" y="344.7" width="57.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
-<text x="523.4" y="362.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PYTHON</text>
-<text x="523.4" y="373.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0</text>
+<text x="523.4" y="362.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">SVAGRUH.D</text>
+<text x="523.4" y="373.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">240</text>
 </g>
 <g id="t80">
-<rect x="564.0" y="344.7" width="61.3" height="50.9" rx="1" fill="#891e1e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="5.2s" begin="1.6s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="344.7" width="61.3" height="50.9" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="5.2s" begin="1.6s" repeatCount="indefinite"/></rect>
 <rect x="564.0" y="344.7" width="61.3" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="594.7" y="364.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Fixmach.S</text>
 <text x="594.7" y="376.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">321</text>
 </g>
 <g id="t81">
-<rect x="633.5" y="344.7" width="62.1" height="42.9" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.3s" begin="0.3s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="344.7" width="62.1" height="42.9" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.81;1" dur="5.3s" begin="0.3s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="344.7" width="62.1" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="664.5" y="360.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Fixmach.P</text>
 <text x="664.5" y="372.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">214</text>
 </g>
 <g id="t82">
-<rect x="703.0" y="344.7" width="61.7" height="50.2" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="344.7" width="61.7" height="50.2" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="344.7" width="61.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="733.9" y="364.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Fixmach.D</text>
 <text x="733.9" y="375.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">160</text>
 </g>
 <g id="t83">
-<rect x="772.5" y="344.7" width="70.6" height="48.2" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="2.5s" begin="2.5s" repeatCount="indefinite"/></rect>
+<rect x="772.5" y="344.7" width="70.6" height="48.2" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="2.5s" begin="2.5s" repeatCount="indefinite"/></rect>
 <rect x="772.5" y="344.7" width="70.6" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="807.8" y="362.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">fixmach.S</text>
 <text x="807.8" y="375.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">303</text>
 </g>
 <g id="t84">
-<rect x="8.0" y="394.4" width="75.0" height="44.8" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.1s" begin="2.6s" repeatCount="indefinite"/></rect>
+<rect x="8.0" y="394.4" width="75.0" height="44.8" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.1s" begin="2.6s" repeatCount="indefinite"/></rect>
 <rect x="8.0" y="394.4" width="75.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="45.5" y="409.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">fixmach.P</text>
 <text x="45.5" y="424.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">202</text>
 </g>
 <g id="t85">
-<rect x="77.5" y="394.4" width="60.8" height="44.8" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.9s" begin="3.3s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="394.4" width="60.8" height="44.8" rx="1" fill="#22cc3d" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.9s" begin="3.3s" repeatCount="indefinite"/></rect>
 <rect x="77.5" y="394.4" width="60.8" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="107.9" y="411.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">fixmach.D</text>
 <text x="107.9" y="422.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">151</text>
 </g>
 <g id="t86">
-<rect x="147.0" y="394.4" width="72.3" height="51.5" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.9s" begin="3.4s" repeatCount="indefinite"/></rect>
-<rect x="147.0" y="394.4" width="72.3" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<rect x="147.0" y="394.4" width="72.3" height="51.5" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.88;1" dur="4.9s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="394.4" width="72.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="183.2" y="413.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="183.2" y="427.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0</text>
 </g>
 <g id="t87">
-<rect x="216.5" y="394.4" width="60.2" height="45.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.1s" begin="0.5s" repeatCount="indefinite"/></rect>
-<rect x="216.5" y="394.4" width="60.2" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="216.5" y="394.4" width="60.2" height="45.3" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.89;1" dur="3.1s" begin="0.5s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="394.4" width="60.2" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="246.6" y="411.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TYPESCRI</text>
 <text x="246.6" y="423.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0</text>
 </g>
 <g id="t88">
-<rect x="286.0" y="394.4" width="71.5" height="44.1" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.1s" begin="2.1s" repeatCount="indefinite"/></rect>
+<rect x="286.0" y="394.4" width="71.5" height="44.1" rx="1" fill="#a62e2e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.86;1" dur="5.1s" begin="2.1s" repeatCount="indefinite"/></rect>
 <rect x="286.0" y="394.4" width="71.5" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="321.7" y="410.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">KMCR412.S</text>
-<text x="321.7" y="423.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">45</text>
+<text x="321.7" y="423.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">57</text>
 </g>
 <g id="t89">
-<rect x="355.5" y="394.4" width="63.7" height="52.5" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.4s" begin="0.2s" repeatCount="indefinite"/></rect>
-<rect x="355.5" y="394.4" width="63.7" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="355.5" y="394.4" width="63.7" height="52.5" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.8;1" dur="5.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+<rect x="355.5" y="394.4" width="63.7" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="387.4" y="415.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">KMCR412.P</text>
-<text x="387.4" y="426.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">30</text>
+<text x="387.4" y="426.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">38</text>
 </g>
 <g id="t90">
-<rect x="425.0" y="394.4" width="65.3" height="44.9" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.82;1" dur="3.7s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="425.0" y="394.4" width="65.3" height="44.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.82;1" dur="3.7s" begin="3.4s" repeatCount="indefinite"/></rect>
 <rect x="425.0" y="394.4" width="65.3" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="457.7" y="410.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">KMCR412.DO</text>
-<text x="457.7" y="422.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">22</text>
+<text x="457.7" y="422.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">28</text>
 </g>
 <g id="t91">
-<rect x="494.5" y="394.4" width="62.0" height="45.5" rx="1" fill="#a62e2e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="5.0s" begin="1.4s" repeatCount="indefinite"/></rect>
+<rect x="494.5" y="394.4" width="62.0" height="45.5" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.79;1" dur="5.0s" begin="1.4s" repeatCount="indefinite"/></rect>
 <rect x="494.5" y="394.4" width="62.0" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="525.5" y="411.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PEOPLIX.S</text>
 <text x="525.5" y="423.2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">28</text>
 </g>
 <g id="t92">
-<rect x="564.0" y="394.4" width="67.5" height="53.2" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.9s" begin="0.5s" repeatCount="indefinite"/></rect>
-<rect x="564.0" y="394.4" width="67.5" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
+<rect x="564.0" y="394.4" width="67.5" height="53.2" rx="1" fill="#0a4d0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.9s" begin="0.5s" repeatCount="indefinite"/></rect>
+<rect x="564.0" y="394.4" width="67.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="597.8" y="414.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PEOPLIX.P</text>
 <text x="597.8" y="427.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">19</text>
 </g>
 <g id="t93">
-<rect x="633.5" y="394.4" width="62.4" height="48.3" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.9s" begin="0.9s" repeatCount="indefinite"/></rect>
+<rect x="633.5" y="394.4" width="62.4" height="48.3" rx="1" fill="#14891e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.9s" begin="0.9s" repeatCount="indefinite"/></rect>
 <rect x="633.5" y="394.4" width="62.4" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="664.7" y="413.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">PEOPLIX.D</text>
 <text x="664.7" y="424.6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">14</text>
 </g>
 <g id="t94">
-<rect x="703.0" y="394.4" width="64.9" height="46.7" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="4.2s" begin="3.1s" repeatCount="indefinite"/></rect>
+<rect x="703.0" y="394.4" width="64.9" height="46.7" rx="1" fill="#891e1e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.87;1" dur="4.2s" begin="3.1s" repeatCount="indefinite"/></rect>
 <rect x="703.0" y="394.4" width="64.9" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="735.5" y="411.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">VoltVis.S</text>
 <text x="735.5" y="423.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">12</text>
 </g>
 <g id="t95">
-<rect x="772.5" y="394.4" width="64.4" height="46.5" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.8s" begin="1.1s" repeatCount="indefinite"/></rect>
-<rect x="772.5" y="394.4" width="64.4" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="772.5" y="394.4" width="64.4" height="46.5" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.78;1" dur="2.8s" begin="1.1s" repeatCount="indefinite"/></rect>
+<rect x="772.5" y="394.4" width="64.4" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="804.7" y="411.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">VoltVis.P</text>
 <text x="804.7" y="423.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">8</text>
 </g>
 <g id="t96">
-<rect x="8.0" y="444.2" width="67.6" height="43.9" rx="1" fill="#1aa62e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+<rect x="8.0" y="444.2" width="67.6" height="43.9" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.84;1" dur="4.2s" begin="1.2s" repeatCount="indefinite"/></rect>
 <rect x="8.0" y="444.2" width="67.6" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
 <text x="41.8" y="459.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">VoltVis.D</text>
 <text x="41.8" y="472.8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">6</text>
 </g>
 <g id="t97">
-<rect x="77.5" y="444.2" width="61.5" height="43.4" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="2.5s" begin="0.8s" repeatCount="indefinite"/></rect>
-<rect x="77.5" y="444.2" width="61.5" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="77.5" y="444.2" width="61.5" height="43.4" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="2.5s" begin="0.8s" repeatCount="indefinite"/></rect>
+<rect x="77.5" y="444.2" width="61.5" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="108.2" y="460.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">AGRO---IN</text>
 <text x="108.2" y="471.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0KB</text>
 </g>
 <g id="t98">
-<rect x="147.0" y="444.2" width="63.1" height="43.0" rx="1" fill="#4d0a0a" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.8s" begin="1.5s" repeatCount="indefinite"/></rect>
+<rect x="147.0" y="444.2" width="63.1" height="43.0" rx="1" fill="#a62e2e" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.83;1" dur="4.8s" begin="1.5s" repeatCount="indefinite"/></rect>
 <rect x="147.0" y="444.2" width="63.1" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="178.5" y="460.1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Agro---.S</text>
 <text x="178.5" y="471.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="7" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0</text>
 </g>
 <g id="t99">
-<rect x="216.5" y="444.2" width="64.0" height="45.1" rx="1" fill="#0f6b0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.5s" begin="2.7s" repeatCount="indefinite"/></rect>
-<rect x="216.5" y="444.2" width="64.0" height="1.5" rx="0" fill="#55ff55" opacity="0.65"/>
+<rect x="216.5" y="444.2" width="64.0" height="45.1" rx="1" fill="#6b0f0f" stroke="#0d1117" stroke-width="0.8"><animate attributeName="opacity" values="1;0.85;1" dur="4.5s" begin="2.7s" repeatCount="indefinite"/></rect>
+<rect x="216.5" y="444.2" width="64.0" height="1.5" rx="0" fill="#ff5555" opacity="0.65"/>
 <text x="248.5" y="460.3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">Agro---.P</text>
 <text x="248.5" y="472.7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8" font-weight="400" fill="#fff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">0</text>
 </g>
@@ -597,7 +597,7 @@
 <text x="860.0" y="96.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="500" fill="#8b949e" text-anchor="start" dominant-baseline="central" xml:space="preserve">FOLLOWERS</text>
 <text x="1054.0" y="96.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="700" fill="#e6edf3" text-anchor="end" dominant-baseline="central" xml:space="preserve">1</text>
 <text x="860.0" y="118.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="500" fill="#8b949e" text-anchor="start" dominant-baseline="central" xml:space="preserve">TOTAL ★</text>
-<text x="1054.0" y="118.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="700" fill="#e3b341" text-anchor="end" dominant-baseline="central" xml:space="preserve">7</text>
+<text x="1054.0" y="118.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="700" fill="#e3b341" text-anchor="end" dominant-baseline="central" xml:space="preserve">8</text>
 <text x="860.0" y="140.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="500" fill="#8b949e" text-anchor="start" dominant-baseline="central" xml:space="preserve">FORKS</text>
 <text x="1054.0" y="140.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="700" fill="#8b949e" text-anchor="end" dominant-baseline="central" xml:space="preserve">0</text>
 <line x1="860" y1="162" x2="1054" y2="162" stroke="#21262d"/>
@@ -620,15 +620,15 @@
 <text x="1054.0" y="241.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#8b949e" text-anchor="end" dominant-baseline="central" xml:space="preserve">6%</text>
 <line x1="860" y1="258" x2="1054" y2="258" stroke="#21262d"/>
 <text x="957.0" y="272.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#58a6ff" text-anchor="middle" dominant-baseline="central" xml:space="preserve">TOP REPOS</text>
-<text x="860.0" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ Continuum</text>
-<text x="1054.0" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
-<text x="860.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ StackWeb</text>
+<text x="860.0" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ FarCarFix</text>
+<text x="1054.0" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★2</text>
+<text x="860.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ Continuum</text>
 <text x="1054.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
-<text x="860.0" y="311.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ Primeflexmain</text>
+<text x="860.0" y="311.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ StackWeb</text>
 <text x="1054.0" y="311.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
-<text x="860.0" y="324.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ LIVN</text>
+<text x="860.0" y="324.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ Primeflexmain</text>
 <text x="1054.0" y="324.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
-<text x="860.0" y="337.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ FarCarFix</text>
+<text x="860.0" y="337.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ LIVN</text>
 <text x="1054.0" y="337.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
 <text x="860.0" y="350.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="400" fill="#e6edf3" text-anchor="start" dominant-baseline="central" xml:space="preserve">▸ ASR-INFRA</text>
 <text x="1054.0" y="350.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">★1</text>
@@ -639,20 +639,20 @@
 <text x="58.0" y="19.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start" dominant-baseline="central" xml:space="preserve">DEVELOPER MARKET</text>
 <rect x="397" y="9" width="56" height="18" rx="3" fill="#0f2d17"/>
 <text x="425.0" y="19.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="700" fill="#3fb950" text-anchor="middle" dominant-baseline="central" xml:space="preserve">● LIVE</text>
-<text x="838.0" y="19.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">▲ +7★  TODAY</text>
+<text x="838.0" y="19.0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="600" fill="#3fb950" text-anchor="end" dominant-baseline="central" xml:space="preserve">▲ +8★  TODAY</text>
 <text x="245" y="26" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#58a6ff" dominant-baseline="central"><animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>█</text>
 <rect x="0" y="498" width="1060" height="22" fill="#010409"/>
 <rect x="0" y="498" width="1060" height="1" fill="#21262d"/>
 <clipPath id="tc"><rect x="0" y="498" width="1056" height="22"/></clipPath>
 <g clip-path="url(#tc)">
 <g transform="translate(0,498)" style="animation:ticker 30s linear infinite">
-<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">CONTINUUM</text>
-<text x="82" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
+<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FARCARFIX</text>
+<text x="82" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +2★</text>
 <text x="148" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTIX</text>
+<text x="160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">CONTINUUM</text>
 <text x="242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="308" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FARCARFIX</text>
+<text x="320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTIX</text>
 <text x="402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="468" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">ASR-INFRA</text>
@@ -665,7 +665,7 @@
 <text x="882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-HUB</text>
-<text x="1042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 77MB</text>
+<text x="1042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 77MB</text>
 <text x="1108" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="1120" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">GITA-BOOK</text>
 <text x="1202" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 56MB</text>
@@ -683,40 +683,40 @@
 <text x="1842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6MB</text>
 <text x="1908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="1920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUHA-H</text>
-<text x="2002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 963KB</text>
+<text x="2002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 963KB</text>
 <text x="2068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="2080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
-<text x="2162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 643KB</text>
+<text x="2080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★FarCarFi</text>
+<text x="2162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +2</text>
 <text x="2228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="2240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
-<text x="2322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 607KB</text>
+<text x="2322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 643KB</text>
 <text x="2388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="2400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR41207</text>
-<text x="2482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 91KB</text>
+<text x="2400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
+<text x="2482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 607KB</text>
 <text x="2548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="2560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Continuu</text>
-<text x="2642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
+<text x="2560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR41207</text>
+<text x="2642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 115KB</text>
 <text x="2708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="2720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="2802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 944</text>
+<text x="2802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 361</text>
 <text x="2868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="2880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★LOGISTIX</text>
+<text x="2880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Continuu</text>
 <text x="2962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="3028" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="3040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX-DE</text>
-<text x="3122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 57KB</text>
+<text x="3040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="3122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 944</text>
 <text x="3188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="3200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★FarCarFi</text>
+<text x="3200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★LOGISTIX</text>
 <text x="3282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="3348" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="3360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="3442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 581</text>
+<text x="3360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX-DE</text>
+<text x="3442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 57KB</text>
 <text x="3508" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="3520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★ASR-INFR</text>
-<text x="3602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
+<text x="3520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="3602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 581</text>
 <text x="3668" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="3680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="3762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 361</text>
+<text x="3680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★ASR-INFR</text>
+<text x="3762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="3828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="3840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
 <text x="3922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 341</text>
@@ -737,7 +737,7 @@
 <text x="4722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 793</text>
 <text x="4788" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="4800" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VOLTVISION</text>
-<text x="4882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 24KB</text>
+<text x="4882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 24KB</text>
 <text x="4948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="4960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Primefle</text>
 <text x="5042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
@@ -748,38 +748,38 @@
 <text x="5280" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
 <text x="5362" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 450</text>
 <text x="5428" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="5440" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.SR</text>
-<text x="5522" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 47233</text>
+<text x="5440" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.SR</text>
+<text x="5522" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 18052</text>
 <text x="5588" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="5600" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.PK</text>
-<text x="5682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 31489</text>
+<text x="5600" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.PK</text>
+<text x="5682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 12034</text>
 <text x="5748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="5760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.DO</text>
-<text x="5842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 23616</text>
+<text x="5760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.DO</text>
+<text x="5842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 9026</text>
 <text x="5908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="5920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">JAVASCRI</text>
-<text x="6002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 117</text>
+<text x="5920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.SR</text>
+<text x="6002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 47233</text>
 <text x="6068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.SR</text>
-<text x="6162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 29063</text>
+<text x="6080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.PK</text>
+<text x="6162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 31489</text>
 <text x="6228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.PK</text>
-<text x="6322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19375</text>
+<text x="6240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.DO</text>
+<text x="6322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 23616</text>
 <text x="6388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.DO</text>
-<text x="6482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14531</text>
+<text x="6400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">JAVASCRI</text>
+<text x="6482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 117</text>
 <text x="6548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="6642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
+<text x="6560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.SR</text>
+<text x="6642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 29063</text>
 <text x="6708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.SR</text>
-<text x="6802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 18052</text>
+<text x="6720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.PK</text>
+<text x="6802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19375</text>
 <text x="6868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="6880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.PK</text>
-<text x="6962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 12034</text>
+<text x="6880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.DO</text>
+<text x="6962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14531</text>
 <text x="7028" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="7040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.DO</text>
-<text x="7122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 9026</text>
+<text x="7040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="7122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="7188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="7200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">ASR-INF.SR</text>
 <text x="7282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 17085</text>
@@ -794,7 +794,7 @@
 <text x="7762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 63</text>
 <text x="7828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="7840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LIVN.SR</text>
-<text x="7922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6163</text>
+<text x="7922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 6163</text>
 <text x="7988" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="8000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LIVN.PK</text>
 <text x="8082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 4109</text>
@@ -815,7 +815,7 @@
 <text x="8882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 39676</text>
 <text x="8948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="8960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-H.PK</text>
-<text x="9042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 26450</text>
+<text x="9042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 26450</text>
 <text x="9108" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="9120" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-H.DO</text>
 <text x="9202" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19838</text>
@@ -830,7 +830,7 @@
 <text x="9682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14509</text>
 <text x="9748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="9760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Primefl.SR</text>
-<text x="9842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 22538</text>
+<text x="9842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 22538</text>
 <text x="9908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="9920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Primefl.PK</text>
 <text x="10002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 15025</text>
@@ -848,7 +848,7 @@
 <text x="10642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="10708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="10720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Hyperpu.SR</text>
-<text x="10802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 5854</text>
+<text x="10802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 5854</text>
 <text x="10868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="10880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Hyperpu.PK</text>
 <text x="10962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 3903</text>
@@ -874,17 +874,17 @@
 <text x="12000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVLT.DO</text>
 <text x="12082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 1581</text>
 <text x="12148" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="12160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.SR</text>
-<text x="12242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 481</text>
+<text x="12160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PYTHON</text>
+<text x="12242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 1</text>
 <text x="12308" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="12320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.PK</text>
-<text x="12402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 321</text>
+<text x="12320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.SR</text>
+<text x="12402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 481</text>
 <text x="12468" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="12480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.DO</text>
-<text x="12562" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 240</text>
+<text x="12480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.PK</text>
+<text x="12562" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 321</text>
 <text x="12628" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="12640" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PYTHON</text>
-<text x="12722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="12640" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.DO</text>
+<text x="12722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 240</text>
 <text x="12788" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="12800" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Fixmach.SR</text>
 <text x="12882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 321</text>
@@ -905,25 +905,25 @@
 <text x="13682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 151</text>
 <text x="13748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="13760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="13842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
+<text x="13842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
 <text x="13908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="13920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="14002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="14002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="14068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.SR</text>
-<text x="14162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 45</text>
+<text x="14162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 57</text>
 <text x="14228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.PK</text>
-<text x="14322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 30</text>
+<text x="14322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 38</text>
 <text x="14388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.DO</text>
-<text x="14482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 22</text>
+<text x="14482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 28</text>
 <text x="14548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.SR</text>
 <text x="14642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 28</text>
 <text x="14708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.PK</text>
-<text x="14802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 19</text>
+<text x="14802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19</text>
 <text x="14868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="14880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.DO</text>
 <text x="14962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14</text>
@@ -932,27 +932,27 @@
 <text x="15122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 12</text>
 <text x="15188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="15200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VoltVis.PK</text>
-<text x="15282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 8</text>
+<text x="15282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 8</text>
 <text x="15348" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="15360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VoltVis.DO</text>
 <text x="15442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="15508" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="15520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">AGRO---INT</text>
-<text x="15602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0KB</text>
+<text x="15602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0KB</text>
 <text x="15668" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="15680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Agro---.SR</text>
 <text x="15762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="15828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="15840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Agro---.PK</text>
-<text x="15922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="15922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="15988" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="16000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">CONTINUUM</text>
-<text x="16082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
+<text x="16000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FARCARFIX</text>
+<text x="16082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +2★</text>
 <text x="16148" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="16160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTIX</text>
+<text x="16160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">CONTINUUM</text>
 <text x="16242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="16308" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="16320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FARCARFIX</text>
+<text x="16320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTIX</text>
 <text x="16402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="16468" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="16480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">ASR-INFRA</text>
@@ -965,7 +965,7 @@
 <text x="16882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1★</text>
 <text x="16948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="16960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-HUB</text>
-<text x="17042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 77MB</text>
+<text x="17042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 77MB</text>
 <text x="17108" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="17120" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">GITA-BOOK</text>
 <text x="17202" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 56MB</text>
@@ -983,40 +983,40 @@
 <text x="17842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6MB</text>
 <text x="17908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="17920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUHA-H</text>
-<text x="18002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 963KB</text>
+<text x="18002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 963KB</text>
 <text x="18068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="18080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
-<text x="18162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 643KB</text>
+<text x="18080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★FarCarFi</text>
+<text x="18162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +2</text>
 <text x="18228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="18240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
-<text x="18322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 607KB</text>
+<text x="18322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 643KB</text>
 <text x="18388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="18400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR41207</text>
-<text x="18482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 91KB</text>
+<text x="18400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FIXMACH-AI</text>
+<text x="18482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 607KB</text>
 <text x="18548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="18560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Continuu</text>
-<text x="18642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
+<text x="18560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR41207</text>
+<text x="18642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 115KB</text>
 <text x="18708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="18720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="18802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 944</text>
+<text x="18802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 361</text>
 <text x="18868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="18880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★LOGISTIX</text>
+<text x="18880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Continuu</text>
 <text x="18962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="19028" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="19040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX-DE</text>
-<text x="19122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 57KB</text>
+<text x="19040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="19122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 944</text>
 <text x="19188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="19200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★FarCarFi</text>
+<text x="19200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★LOGISTIX</text>
 <text x="19282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="19348" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="19360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="19442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 581</text>
+<text x="19360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX-DE</text>
+<text x="19442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 57KB</text>
 <text x="19508" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="19520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★ASR-INFR</text>
-<text x="19602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
+<text x="19520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="19602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 581</text>
 <text x="19668" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="19680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="19762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 361</text>
+<text x="19680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★ASR-INFR</text>
+<text x="19762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
 <text x="19828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="19840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
 <text x="19922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 341</text>
@@ -1037,7 +1037,7 @@
 <text x="20722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 793</text>
 <text x="20788" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="20800" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VOLTVISION</text>
-<text x="20882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 24KB</text>
+<text x="20882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 24KB</text>
 <text x="20948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="20960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">★Primefle</text>
 <text x="21042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ +1</text>
@@ -1048,38 +1048,38 @@
 <text x="21280" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
 <text x="21362" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 450</text>
 <text x="21428" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="21440" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.SR</text>
-<text x="21522" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 47233</text>
+<text x="21440" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.SR</text>
+<text x="21522" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 18052</text>
 <text x="21588" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="21600" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.PK</text>
-<text x="21682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 31489</text>
+<text x="21600" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.PK</text>
+<text x="21682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 12034</text>
 <text x="21748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="21760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.DO</text>
-<text x="21842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 23616</text>
+<text x="21760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.DO</text>
+<text x="21842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 9026</text>
 <text x="21908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="21920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">JAVASCRI</text>
-<text x="22002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 117</text>
+<text x="21920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.SR</text>
+<text x="22002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 47233</text>
 <text x="22068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.SR</text>
-<text x="22162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 29063</text>
+<text x="22080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.PK</text>
+<text x="22162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 31489</text>
 <text x="22228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.PK</text>
-<text x="22322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19375</text>
+<text x="22240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Continu.DO</text>
+<text x="22322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 23616</text>
 <text x="22388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.DO</text>
-<text x="22482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14531</text>
+<text x="22400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">JAVASCRI</text>
+<text x="22482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 117</text>
 <text x="22548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="22642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
+<text x="22560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.SR</text>
+<text x="22642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 29063</text>
 <text x="22708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.SR</text>
-<text x="22802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 18052</text>
+<text x="22720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.PK</text>
+<text x="22802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19375</text>
 <text x="22868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="22880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.PK</text>
-<text x="22962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 12034</text>
+<text x="22880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LOGISTI.DO</text>
+<text x="22962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14531</text>
 <text x="23028" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="23040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">FarCarF.DO</text>
-<text x="23122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 9026</text>
+<text x="23040" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
+<text x="23122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="23188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="23200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">ASR-INF.SR</text>
 <text x="23282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 17085</text>
@@ -1094,7 +1094,7 @@
 <text x="23762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 63</text>
 <text x="23828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="23840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LIVN.SR</text>
-<text x="23922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6163</text>
+<text x="23922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 6163</text>
 <text x="23988" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="24000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">LIVN.PK</text>
 <text x="24082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 4109</text>
@@ -1115,7 +1115,7 @@
 <text x="24882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 39676</text>
 <text x="24948" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="24960" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-H.PK</text>
-<text x="25042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 26450</text>
+<text x="25042" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 26450</text>
 <text x="25108" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="25120" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">EVENT-H.DO</text>
 <text x="25202" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19838</text>
@@ -1130,7 +1130,7 @@
 <text x="25682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14509</text>
 <text x="25748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="25760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Primefl.SR</text>
-<text x="25842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 22538</text>
+<text x="25842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 22538</text>
 <text x="25908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="25920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Primefl.PK</text>
 <text x="26002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 15025</text>
@@ -1148,7 +1148,7 @@
 <text x="26642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="26708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="26720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Hyperpu.SR</text>
-<text x="26802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 5854</text>
+<text x="26802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 5854</text>
 <text x="26868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="26880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Hyperpu.PK</text>
 <text x="26962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 3903</text>
@@ -1174,17 +1174,17 @@
 <text x="28000" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVLT.DO</text>
 <text x="28082" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 1581</text>
 <text x="28148" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="28160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.SR</text>
-<text x="28242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 481</text>
+<text x="28160" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PYTHON</text>
+<text x="28242" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 1</text>
 <text x="28308" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="28320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.PK</text>
-<text x="28402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 321</text>
+<text x="28320" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.SR</text>
+<text x="28402" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 481</text>
 <text x="28468" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="28480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.DO</text>
-<text x="28562" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 240</text>
+<text x="28480" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.PK</text>
+<text x="28562" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 321</text>
 <text x="28628" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
-<text x="28640" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PYTHON</text>
-<text x="28722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="28640" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">SVAGRUH.DO</text>
+<text x="28722" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 240</text>
 <text x="28788" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="28800" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Fixmach.SR</text>
 <text x="28882" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 321</text>
@@ -1205,25 +1205,25 @@
 <text x="29682" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 151</text>
 <text x="29748" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="29760" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="29842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
+<text x="29842" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
 <text x="29908" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="29920" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">TYPESCRI</text>
-<text x="30002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="30002" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="30068" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30080" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.SR</text>
-<text x="30162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 45</text>
+<text x="30162" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 57</text>
 <text x="30228" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30240" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.PK</text>
-<text x="30322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 30</text>
+<text x="30322" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 38</text>
 <text x="30388" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30400" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">KMCR412.DO</text>
-<text x="30482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 22</text>
+<text x="30482" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 28</text>
 <text x="30548" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30560" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.SR</text>
 <text x="30642" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 28</text>
 <text x="30708" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30720" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.PK</text>
-<text x="30802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 19</text>
+<text x="30802" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 19</text>
 <text x="30868" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="30880" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">PEOPLIX.DO</text>
 <text x="30962" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 14</text>
@@ -1232,19 +1232,19 @@
 <text x="31122" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 12</text>
 <text x="31188" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="31200" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VoltVis.PK</text>
-<text x="31282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 8</text>
+<text x="31282" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 8</text>
 <text x="31348" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="31360" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">VoltVis.DO</text>
 <text x="31442" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 6</text>
 <text x="31508" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="31520" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">AGRO---INT</text>
-<text x="31602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0KB</text>
+<text x="31602" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0KB</text>
 <text x="31668" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="31680" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Agro---.SR</text>
 <text x="31762" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="31828" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 <text x="31840" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" font-weight="600" fill="#e6edf3" dominant-baseline="central">Agro---.PK</text>
-<text x="31922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#3fb950" dominant-baseline="central">▲ 0</text>
+<text x="31922" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#f85149" dominant-baseline="central">▼ 0</text>
 <text x="31988" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#21262d" dominant-baseline="central">│</text>
 </g></g>
 </svg>
